@@ -1,0 +1,27 @@
+import fs from 'fs';
+import path from 'path';
+import { fileURLToPath } from 'url';
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+
+const svgContent = `<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0e162aff"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+    <linearGradient id="shield" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2563eb"/>
+      <stop offset="100%" stop-color="#1d4ed8"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="110" fill="url(#bg)"/>
+  <path d="M 256 80 L 380 130 V 250 C 380 340 256 420 256 420 C 256 420 132 340 132 250 V 130 L 256 80 Z" fill="url(#shield)" stroke="#3b82f6" stroke-width="8"/>
+  <path d="M 220 250 L 245 275 L 300 210" fill="none" stroke="#ffffff" stroke-width="24" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>`;
+
+const svgPath = path.join(__dirname, 'icon.svg');
+fs.writeFileSync(svgPath, svgContent);
+
+console.log(`[+] Application SVG Icon written to ${svgPath}`);

@@ -1,0 +1,3936 @@
+{
+  "users": [
+    {
+      "id": "usr_1",
+      "username": "admin",
+      "name": "Dr. Rajesh Verma",
+      "role": "Administrator",
+      "email": "admin@datashield.gov.in",
+      "passwordHash": "sha256_mock_hash"
+    },
+    {
+      "id": "usr_2",
+      "username": "investigator",
+      "name": "Sgt. Vikram Singh",
+      "role": "Investigator",
+      "email": "v.singh@cyberforensics.gov.in",
+      "passwordHash": "sha256_mock_hash"
+    },
+    {
+      "id": "usr_3",
+      "username": "viewer",
+      "name": "Ananya Sharma",
+      "role": "Viewer",
+      "email": "a.sharma@cybercell.in",
+      "passwordHash": "sha256_mock_hash"
+    }
+  ],
+  "cases": [
+    {
+      "id": "CASE-2026-0001",
+      "name": "Cyber Heist Disk Forensic Investigation",
+      "investigator": "Sgt. Vikram Singh",
+      "organization": "Central Digital Forensics Lab (CDFL)",
+      "description": "Acquisition and analysis of suspect media image sample_drive.img for financial breach evidence.",
+      "createdDate": "2026-09-24T09:30:00.000Z",
+      "caseType": "Forensic Investigation",
+      "status": "Active"
+    },
+    {
+      "id": "CASE-2026-0002",
+      "name": "Departmental Storage Decommissioning",
+      "investigator": "Dr. Rajesh Verma",
+      "organization": "Defense Cyber Agency",
+      "description": "NIST 800-88 Rev 1 compliant secure sanitization of decommissioned NVMe storage arrays.",
+      "createdDate": "2026-09-24T11:15:00.000Z",
+      "caseType": "Data Sanitization",
+      "status": "Active"
+    },
+    {
+      "id": "CASE-TEST-001",
+      "name": "Automated Test Case",
+      "investigator": "Test Suite Runner",
+      "organization": "CI Unit",
+      "description": "Case for automated testing",
+      "createdDate": "2026-09-24T17:23:21.080Z",
+      "caseType": "Forensic Investigation",
+      "status": "Active"
+    },
+    {
+      "id": "CASE-TEST-001",
+      "name": "Automated Test Case",
+      "investigator": "Test Suite Runner",
+      "organization": "CI Unit",
+      "description": "Case for automated testing",
+      "createdDate": "2026-09-24T18:11:55.644Z",
+      "caseType": "Forensic Investigation",
+      "status": "Active"
+    },
+    {
+      "id": "CASE-2026-0005",
+      "name": "financila documnt",
+      "investigator": "Sgt. Vikram Singh",
+      "organization": "Central Digital Forensics Lab (CDFL)",
+      "description": "Digital evidence investigation and sanitization case.",
+      "createdDate": "2026-09-24T18:17:04.891Z",
+      "caseType": "Forensic Investigation",
+      "status": "Active"
+    }
+  ],
+  "evidence": [
+    {
+      "id": "EVD-2026-0001",
+      "caseId": "CASE-2026-0001",
+      "sourceName": "sample_drive.img",
+      "sourcePath": "/Users/hari/Documents/erase SIH/sample_data/sample_drive.img",
+      "type": "Forensic Disk Image (.img)",
+      "sizeBytes": 2097152,
+      "originalHash": "8de9c0f89d96f06248e88b7cb7d96099aaddacfba16fab5f2d282b69f8c7a57c",
+      "currentHash": "8de9c0f89d96f06248e88b7cb7d96099aaddacfba16fab5f2d282b69f8c7a57c",
+      "integrityStatus": "VERIFIED",
+      "addedTime": "2026-09-24T09:32:00.000Z",
+      "readOnly": true
+    },
+    {
+      "id": "EVD-2026-0002",
+      "caseId": "CASE-TEST-001",
+      "sourceName": "test_sample.img",
+      "sourcePath": "/Users/hari/Documents/erase SIH/sample_data/sample_drive.img",
+      "type": "Disk Image",
+      "sizeBytes": 2097152,
+      "originalHash": "8de9c0f89d96f06248e88b7cb7d96099aaddacfba16fab5f2d282b69f8c7a57c",
+      "currentHash": "8de9c0f89d96f06248e88b7cb7d96099aaddacfba16fab5f2d282b69f8c7a57c",
+      "integrityStatus": "VERIFIED",
+      "addedTime": "2026-09-24T17:22:47.600Z",
+      "readOnly": true
+    },
+    {
+      "id": "EVD-2026-0003",
+      "caseId": "CASE-TEST-001",
+      "sourceName": "test_sample.img",
+      "sourcePath": "/Users/hari/Documents/erase SIH/sample_data/sample_drive.img",
+      "type": "Disk Image",
+      "sizeBytes": 2097152,
+      "originalHash": "8de9c0f89d96f06248e88b7cb7d96099aaddacfba16fab5f2d282b69f8c7a57c",
+      "currentHash": "8de9c0f89d96f06248e88b7cb7d96099aaddacfba16fab5f2d282b69f8c7a57c",
+      "integrityStatus": "VERIFIED",
+      "addedTime": "2026-09-24T17:23:21.082Z",
+      "readOnly": true
+    },
+    {
+      "id": "EVD-2026-0004",
+      "caseId": "CASE-TEST-001",
+      "sourceName": "test_sample.img",
+      "sourcePath": "/Users/hari/Documents/erase SIH/sample_data/sample_drive.img",
+      "type": "Disk Image",
+      "sizeBytes": 2097152,
+      "originalHash": "8de9c0f89d96f06248e88b7cb7d96099aaddacfba16fab5f2d282b69f8c7a57c",
+      "currentHash": "8de9c0f89d96f06248e88b7cb7d96099aaddacfba16fab5f2d282b69f8c7a57c",
+      "integrityStatus": "VERIFIED",
+      "addedTime": "2026-09-24T18:11:55.842Z",
+      "readOnly": true
+    },
+    {
+      "id": "EVD-2026-0005",
+      "caseId": "CASE-2026-0001",
+      "sourceName": "sample_drive.img",
+      "sourcePath": "/Users/hari/Documents/erase SIH/sample_data/sample_drive.img",
+      "type": "Forensic Disk Image (.img)",
+      "sizeBytes": 2097152,
+      "originalHash": "8de9c0f89d96f06248e88b7cb7d96099aaddacfba16fab5f2d282b69f8c7a57c",
+      "currentHash": "8de9c0f89d96f06248e88b7cb7d96099aaddacfba16fab5f2d282b69f8c7a57c",
+      "integrityStatus": "VERIFIED",
+      "addedTime": "2026-09-24T18:17:13.043Z",
+      "readOnly": true
+    }
+  ],
+  "devices": [
+    {
+      "id": "DEV-001",
+      "name": "Seagate Barracuda ST1000LM048",
+      "type": "HDD",
+      "capacity": "1.0 TB",
+      "capacityBytes": 1000204886016,
+      "filesystem": "NTFS",
+      "partitionInfo": "GPT - 2 Partitions (Primary Data, Recovery)",
+      "sectorSize": "512 bytes",
+      "mountStatus": "Mounted (Read-Only)",
+      "readOnlyStatus": true,
+      "recommendedWorkflow": "Multi-pass DoD 5220.22-M Overwrite (3 Passes)"
+    },
+    {
+      "id": "DEV-002",
+      "name": "Samsung 980 PRO PCIe 4.0 NVMe",
+      "type": "NVMe SSD",
+      "capacity": "500 GB",
+      "capacityBytes": 500107862016,
+      "filesystem": "EXT4",
+      "partitionInfo": "GPT - 1 Partition",
+      "sectorSize": "4096 bytes",
+      "mountStatus": "Unmounted",
+      "readOnlyStatus": false,
+      "recommendedWorkflow": "NVMe Cryptographic Sanitize / Block Erase + TRIM Verification"
+    },
+    {
+      "id": "DEV-003",
+      "name": "SanDisk Ultra USB 3.0",
+      "type": "USB Flash",
+      "capacity": "32 GB",
+      "capacityBytes": 32000000000,
+      "filesystem": "FAT32",
+      "partitionInfo": "MBR - 1 Partition",
+      "sectorSize": "512 bytes",
+      "mountStatus": "Mounted",
+      "readOnlyStatus": false,
+      "recommendedWorkflow": "Zero-Fill Overwrite + Random Pattern Pass"
+    },
+    {
+      "id": "DEV-HW-disk0",
+      "name": "APPLE SSD AP0256Z",
+      "devicePath": "/dev/disk0",
+      "type": "SATA SSD",
+      "capacity": "233.8 GB",
+      "filesystem": "GUID_partition_scheme",
+      "partitionInfo": "GUID_partition_scheme (Apple Fabric)",
+      "sectorSize": "4096 bytes",
+      "mountStatus": "Unmounted",
+      "readOnlyStatus": true,
+      "removable": false,
+      "isSystemDisk": true,
+      "recommendedWorkflow": "SYSTEM DISK PROTECTED - Data Sanitization Blocked",
+      "capacityBytes": 251000193024,
+      "busProtocol": "Apple Fabric",
+      "smartStatus": "Verified"
+    },
+    {
+      "id": "DEV-HW-disk3",
+      "name": "APPLE SSD AP0256Z",
+      "devicePath": "/dev/disk3",
+      "type": "SATA SSD",
+      "capacity": "228.3 GB",
+      "filesystem": "EF57347C-0000-11AA-AA11-00306543ECAC",
+      "partitionInfo": "EF57347C-0000-11AA-AA11-00306543ECAC (Apple Fabric)",
+      "sectorSize": "4096 bytes",
+      "mountStatus": "Unmounted",
+      "readOnlyStatus": true,
+      "removable": false,
+      "isSystemDisk": true,
+      "recommendedWorkflow": "SYSTEM DISK PROTECTED - Data Sanitization Blocked",
+      "capacityBytes": 245107195904,
+      "busProtocol": "Apple Fabric",
+      "smartStatus": "Verified"
+    },
+    {
+      "id": "DEV-HW-disk1",
+      "name": "APPLE SSD AP0256Z",
+      "devicePath": "/dev/disk1",
+      "type": "SATA SSD",
+      "capacity": "500.0 MB",
+      "capacityBytes": 524288000,
+      "filesystem": "EF57347C-0000-11AA-AA11-00306543ECAC",
+      "partitionInfo": "EF57347C-0000-11AA-AA11-00306543ECAC (Apple Fabric)",
+      "sectorSize": "4096 bytes",
+      "mountStatus": "Unmounted",
+      "readOnlyStatus": true,
+      "removable": false,
+      "isSystemDisk": true,
+      "busProtocol": "Apple Fabric",
+      "smartStatus": "Verified",
+      "recommendedWorkflow": "SYSTEM DISK PROTECTED - Data Sanitization Blocked"
+    },
+    {
+      "id": "DEV-HW-disk2",
+      "name": "APPLE SSD AP0256Z",
+      "devicePath": "/dev/disk2",
+      "type": "SATA SSD",
+      "capacity": "5.0 GB",
+      "capacityBytes": 5368664064,
+      "filesystem": "EF57347C-0000-11AA-AA11-00306543ECAC",
+      "partitionInfo": "EF57347C-0000-11AA-AA11-00306543ECAC (Apple Fabric)",
+      "sectorSize": "4096 bytes",
+      "mountStatus": "Unmounted",
+      "readOnlyStatus": true,
+      "removable": false,
+      "isSystemDisk": true,
+      "busProtocol": "Apple Fabric",
+      "smartStatus": "Verified",
+      "recommendedWorkflow": "SYSTEM DISK PROTECTED - Data Sanitization Blocked"
+    }
+  ],
+  "operations": [
+    {
+      "id": "OP-1001",
+      "caseId": "CASE-2026-0001",
+      "evidenceId": "EVD-2026-0001",
+      "type": "Forensic Acquisition & Carving",
+      "status": "Completed",
+      "timestamp": "2026-09-24T09:35:00.000Z",
+      "user": "Sgt. Vikram Singh",
+      "details": "Extracted 4 carved files with signature matching."
+    }
+  ],
+  "recoveredFiles": [
+    {
+      "id": "REC-001",
+      "caseId": "CASE-2026-0001",
+      "evidenceId": "EVD-2026-0001",
+      "filename": "carved_evidence_photo_01.jpg",
+      "fileType": "JPEG Image",
+      "category": "Images",
+      "offsetHex": "0x00001000",
+      "offsetDec": 4096,
+      "sizeBytes": 138,
+      "confidenceScore": 96,
+      "confidenceLevel": "HIGH",
+      "reconstructionStatus": "Complete",
+      "reconstructionReasons": [
+        "✓ Valid JPEG magic header (FF D8 FF E0)",
+        "✓ Valid JPEG footer (FF D9)",
+        "✓ Clean header-to-footer length boundary",
+        "✓ Entropy continuity verified"
+      ],
+      "recoveredAt": "2026-09-24T09:38:00.000Z"
+    },
+    {
+      "id": "REC-002",
+      "caseId": "CASE-2026-0001",
+      "evidenceId": "EVD-2026-0001",
+      "filename": "SIH_Forensic_Investigation_Report.pdf",
+      "fileType": "PDF Document",
+      "category": "Documents",
+      "offsetHex": "0x00008000",
+      "offsetDec": 32768,
+      "sizeBytes": 218,
+      "confidenceScore": 94,
+      "confidenceLevel": "HIGH",
+      "reconstructionStatus": "Complete",
+      "reconstructionReasons": [
+        "✓ Valid PDF magic header (%PDF-1.7)",
+        "✓ Valid PDF %%EOF trailer tag detected",
+        "✓ Cross-reference table structure validated",
+        "✓ No stream corruption detected"
+      ],
+      "recoveredAt": "2026-09-24T09:39:00.000Z"
+    },
+    {
+      "id": "REC-003",
+      "caseId": "CASE-2026-0001",
+      "evidenceId": "EVD-2026-0001",
+      "filename": "suspect_evidence_logs.zip",
+      "fileType": "ZIP Archive",
+      "category": "Archives",
+      "offsetHex": "0x00018000",
+      "offsetDec": 98304,
+      "sizeBytes": 98,
+      "confidenceScore": 91,
+      "confidenceLevel": "HIGH",
+      "reconstructionStatus": "Complete",
+      "reconstructionReasons": [
+        "✓ Valid ZIP Local File Header (50 4B 03 04)",
+        "✓ Valid End of Central Directory signature (50 4B 05 06)",
+        "✓ Central directory index verified"
+      ],
+      "recoveredAt": "2026-09-24T09:40:00.000Z"
+    },
+    {
+      "id": "REC-004",
+      "caseId": "CASE-2026-0001",
+      "evidenceId": "EVD-2026-0001",
+      "filename": "intercepted_evidence_diagram.png",
+      "fileType": "PNG Image",
+      "category": "Images",
+      "offsetHex": "0x00030000",
+      "offsetDec": 196608,
+      "sizeBytes": 215,
+      "confidenceScore": 87,
+      "confidenceLevel": "HIGH",
+      "reconstructionStatus": "Reconstructed (3 Fragments)",
+      "fragmentCount": 3,
+      "missingFragments": 0,
+      "reconstructionReasons": [
+        "✓ Valid PNG header chunk (89 50 4E 47)",
+        "✓ Fragment 1 & 2 continuity sequence validated",
+        "✓ Valid IEND footer chunk detected",
+        "✓ Fragment reconstruction 100% complete"
+      ],
+      "recoveredAt": "2026-09-24T09:42:00.000Z"
+    },
+    {
+      "id": "REC-1790270601085-1",
+      "caseId": "CASE-TEST-001",
+      "evidenceId": "EVD-2026-0003",
+      "filename": "carved_photo_offset_0x1000.jpg",
+      "fileType": "JPEG Image",
+      "category": "Images",
+      "offsetHex": "0x00001000",
+      "offsetDec": 4096,
+      "sizeBytes": 117,
+      "confidenceScore": 98,
+      "confidenceLevel": "HIGH",
+      "reconstructionStatus": "Complete",
+      "reconstructionReasons": [
+        "✓ Valid magic header signature detected",
+        "✓ Valid file footer signature detected",
+        "✓ Expected file size boundary verified",
+        "✓ File internal structure / chunk validation passed",
+        "✓ Contiguous block storage confirmed"
+      ],
+      "recoveredAt": "2026-09-24T17:23:21.085Z"
+    },
+    {
+      "id": "REC-1790270601085-2",
+      "caseId": "CASE-TEST-001",
+      "evidenceId": "EVD-2026-0003",
+      "filename": "SIH_Forensic_Report_0x8000.pdf",
+      "fileType": "PDF Document",
+      "category": "Documents",
+      "offsetHex": "0x00008000",
+      "offsetDec": 32768,
+      "sizeBytes": 245,
+      "confidenceScore": 98,
+      "confidenceLevel": "HIGH",
+      "reconstructionStatus": "Complete",
+      "reconstructionReasons": [
+        "✓ Valid magic header signature detected",
+        "✓ Valid file footer signature detected",
+        "✓ Expected file size boundary verified",
+        "✓ File internal structure / chunk validation passed",
+        "✓ Contiguous block storage confirmed"
+      ],
+      "recoveredAt": "2026-09-24T17:23:21.085Z"
+    },
+    {
+      "id": "REC-1790270601085-3",
+      "caseId": "CASE-TEST-001",
+      "evidenceId": "EVD-2026-0003",
+      "filename": "carved_archive_0x18000.zip",
+      "fileType": "ZIP Archive",
+      "category": "Archives",
+      "offsetHex": "0x00018000",
+      "offsetDec": 98304,
+      "sizeBytes": 98,
+      "confidenceScore": 98,
+      "confidenceLevel": "HIGH",
+      "reconstructionStatus": "Complete",
+      "reconstructionReasons": [
+        "✓ Valid magic header signature detected",
+        "✓ Valid file footer signature detected",
+        "✓ Expected file size boundary verified",
+        "✓ File internal structure / chunk validation passed",
+        "✓ Contiguous block storage confirmed"
+      ],
+      "recoveredAt": "2026-09-24T17:23:21.085Z"
+    },
+    {
+      "id": "REC-1790270601085-4",
+      "caseId": "CASE-TEST-001",
+      "evidenceId": "EVD-2026-0003",
+      "filename": "intercepted_diagram_reconstructed.png",
+      "fileType": "PNG Image",
+      "category": "Images",
+      "offsetHex": "0x00030000",
+      "offsetDec": 196608,
+      "sizeBytes": 215,
+      "confidenceScore": 98,
+      "confidenceLevel": "HIGH",
+      "reconstructionStatus": "Reconstructed (3 Fragments)",
+      "fragmentCount": 3,
+      "missingFragments": 0,
+      "reconstructionReasons": [
+        "✓ Valid magic header signature detected",
+        "✓ Valid file footer signature detected",
+        "✓ Expected file size boundary verified",
+        "✓ File internal structure / chunk validation passed",
+        "✓ Fragment sequence continuity verified (0 missing fragments)"
+      ],
+      "recoveredAt": "2026-09-24T17:23:21.085Z"
+    },
+    {
+      "id": "REC-1790271765865-1",
+      "caseId": "CASE-2026-0001",
+      "evidenceId": "EVD-2026-0001",
+      "filename": "carved_photo_offset_0x1000.jpg",
+      "fileType": "JPEG Image",
+      "category": "Images",
+      "offsetHex": "0x00001000",
+      "offsetDec": 4096,
+      "sizeBytes": 117,
+      "confidenceScore": 98,
+      "confidenceLevel": "HIGH",
+      "reconstructionStatus": "Complete",
+      "reconstructionReasons": [
+        "✓ Valid magic header signature detected",
+        "✓ Valid file footer signature detected",
+        "✓ Expected file size boundary verified",
+        "✓ File internal structure / chunk validation passed",
+        "✓ Contiguous block storage confirmed"
+      ],
+      "recoveredAt": "2026-09-24T17:42:45.865Z"
+    },
+    {
+      "id": "REC-1790271765866-2",
+      "caseId": "CASE-2026-0001",
+      "evidenceId": "EVD-2026-0001",
+      "filename": "SIH_Forensic_Report_0x8000.pdf",
+      "fileType": "PDF Document",
+      "category": "Documents",
+      "offsetHex": "0x00008000",
+      "offsetDec": 32768,
+      "sizeBytes": 245,
+      "confidenceScore": 98,
+      "confidenceLevel": "HIGH",
+      "reconstructionStatus": "Complete",
+      "reconstructionReasons": [
+        "✓ Valid magic header signature detected",
+        "✓ Valid file footer signature detected",
+        "✓ Expected file size boundary verified",
+        "✓ File internal structure / chunk validation passed",
+        "✓ Contiguous block storage confirmed"
+      ],
+      "recoveredAt": "2026-09-24T17:42:45.866Z"
+    },
+    {
+      "id": "REC-1790271765866-3",
+      "caseId": "CASE-2026-0001",
+      "evidenceId": "EVD-2026-0001",
+      "filename": "carved_archive_0x18000.zip",
+      "fileType": "ZIP Archive",
+      "category": "Archives",
+      "offsetHex": "0x00018000",
+      "offsetDec": 98304,
+      "sizeBytes": 98,
+      "confidenceScore": 98,
+      "confidenceLevel": "HIGH",
+      "reconstructionStatus": "Complete",
+      "reconstructionReasons": [
+        "✓ Valid magic header signature detected",
+        "✓ Valid file footer signature detected",
+        "✓ Expected file size boundary verified",
+        "✓ File internal structure / chunk validation passed",
+        "✓ Contiguous block storage confirmed"
+      ],
+      "recoveredAt": "2026-09-24T17:42:45.866Z"
+    },
+    {
+      "id": "REC-1790271765866-4",
+      "caseId": "CASE-2026-0001",
+      "evidenceId": "EVD-2026-0001",
+      "filename": "intercepted_diagram_reconstructed.png",
+      "fileType": "PNG Image",
+      "category": "Images",
+      "offsetHex": "0x00030000",
+      "offsetDec": 196608,
+      "sizeBytes": 215,
+      "confidenceScore": 98,
+      "confidenceLevel": "HIGH",
+      "reconstructionStatus": "Reconstructed (3 Fragments)",
+      "fragmentCount": 3,
+      "missingFragments": 0,
+      "reconstructionReasons": [
+        "✓ Valid magic header signature detected",
+        "✓ Valid file footer signature detected",
+        "✓ Expected file size boundary verified",
+        "✓ File internal structure / chunk validation passed",
+        "✓ Fragment sequence continuity verified (0 missing fragments)"
+      ],
+      "recoveredAt": "2026-09-24T17:42:45.866Z"
+    },
+    {
+      "id": "REC-1790272033482-1",
+      "caseId": "CASE-2026-0001",
+      "evidenceId": "EVD-2026-0001",
+      "filename": "carved_photo_offset_0x1000.jpg",
+      "fileType": "JPEG Image",
+      "category": "Images",
+      "offsetHex": "0x00001000",
+      "offsetDec": 4096,
+      "sizeBytes": 117,
+      "confidenceScore": 98,
+      "confidenceLevel": "HIGH",
+      "reconstructionStatus": "Complete",
+      "reconstructionReasons": [
+        "✓ Valid magic header signature detected",
+        "✓ Valid file footer signature detected",
+        "✓ Expected file size boundary verified",
+        "✓ File internal structure / chunk validation passed",
+        "✓ Contiguous block storage confirmed"
+      ],
+      "recoveredAt": "2026-09-24T17:47:13.482Z"
+    },
+    {
+      "id": "REC-1790272033482-2",
+      "caseId": "CASE-2026-0001",
+      "evidenceId": "EVD-2026-0001",
+      "filename": "SIH_Forensic_Report_0x8000.pdf",
+      "fileType": "PDF Document",
+      "category": "Documents",
+      "offsetHex": "0x00008000",
+      "offsetDec": 32768,
+      "sizeBytes": 245,
+      "confidenceScore": 98,
+      "confidenceLevel": "HIGH",
+      "reconstructionStatus": "Complete",
+      "reconstructionReasons": [
+        "✓ Valid magic header signature detected",
+        "✓ Valid file footer signature detected",
+        "✓ Expected file size boundary verified",
+        "✓ File internal structure / chunk validation passed",
+        "✓ Contiguous block storage confirmed"
+      ],
+      "recoveredAt": "2026-09-24T17:47:13.482Z"
+    },
+    {
+      "id": "REC-1790272033482-3",
+      "caseId": "CASE-2026-0001",
+      "evidenceId": "EVD-2026-0001",
+      "filename": "carved_archive_0x18000.zip",
+      "fileType": "ZIP Archive",
+      "category": "Archives",
+      "offsetHex": "0x00018000",
+      "offsetDec": 98304,
+      "sizeBytes": 98,
+      "confidenceScore": 98,
+      "confidenceLevel": "HIGH",
+      "reconstructionStatus": "Complete",
+      "reconstructionReasons": [
+        "✓ Valid magic header signature detected",
+        "✓ Valid file footer signature detected",
+        "✓ Expected file size boundary verified",
+        "✓ File internal structure / chunk validation passed",
+        "✓ Contiguous block storage confirmed"
+      ],
+      "recoveredAt": "2026-09-24T17:47:13.482Z"
+    },
+    {
+      "id": "REC-1790272033482-4",
+      "caseId": "CASE-2026-0001",
+      "evidenceId": "EVD-2026-0001",
+      "filename": "intercepted_diagram_reconstructed.png",
+      "fileType": "PNG Image",
+      "category": "Images",
+      "offsetHex": "0x00030000",
+      "offsetDec": 196608,
+      "sizeBytes": 215,
+      "confidenceScore": 98,
+      "confidenceLevel": "HIGH",
+      "reconstructionStatus": "Reconstructed (3 Fragments)",
+      "fragmentCount": 3,
+      "missingFragments": 0,
+      "reconstructionReasons": [
+        "✓ Valid magic header signature detected",
+        "✓ Valid file footer signature detected",
+        "✓ Expected file size boundary verified",
+        "✓ File internal structure / chunk validation passed",
+        "✓ Fragment sequence continuity verified (0 missing fragments)"
+      ],
+      "recoveredAt": "2026-09-24T17:47:13.482Z"
+    },
+    {
+      "id": "REC-1790272653379-1",
+      "caseId": "CASE-2026-0001",
+      "evidenceId": "EVD-2026-0001",
+      "filename": "carved_photo_offset_0x1000.jpg",
+      "fileType": "JPEG Image",
+      "category": "Images",
+      "offsetHex": "0x00001000",
+      "offsetDec": 4096,
+      "sizeBytes": 117,
+      "confidenceScore": 98,
+      "confidenceLevel": "HIGH",
+      "reconstructionStatus": "Complete",
+      "reconstructionReasons": [
+        "✓ Valid magic header signature detected",
+        "✓ Valid file footer signature detected",
+        "✓ Expected file size boundary verified",
+        "✓ File internal structure / chunk validation passed",
+        "✓ Contiguous block storage confirmed"
+      ],
+      "recoveredAt": "2026-09-24T17:57:33.379Z"
+    },
+    {
+      "id": "REC-1790272653379-2",
+      "caseId": "CASE-2026-0001",
+      "evidenceId": "EVD-2026-0001",
+      "filename": "SIH_Forensic_Report_0x8000.pdf",
+      "fileType": "PDF Document",
+      "category": "Documents",
+      "offsetHex": "0x00008000",
+      "offsetDec": 32768,
+      "sizeBytes": 245,
+      "confidenceScore": 98,
+      "confidenceLevel": "HIGH",
+      "reconstructionStatus": "Complete",
+      "reconstructionReasons": [
+        "✓ Valid magic header signature detected",
+        "✓ Valid file footer signature detected",
+        "✓ Expected file size boundary verified",
+        "✓ File internal structure / chunk validation passed",
+        "✓ Contiguous block storage confirmed"
+      ],
+      "recoveredAt": "2026-09-24T17:57:33.379Z"
+    },
+    {
+      "id": "REC-1790272653379-3",
+      "caseId": "CASE-2026-0001",
+      "evidenceId": "EVD-2026-0001",
+      "filename": "carved_archive_0x18000.zip",
+      "fileType": "ZIP Archive",
+      "category": "Archives",
+      "offsetHex": "0x00018000",
+      "offsetDec": 98304,
+      "sizeBytes": 98,
+      "confidenceScore": 98,
+      "confidenceLevel": "HIGH",
+      "reconstructionStatus": "Complete",
+      "reconstructionReasons": [
+        "✓ Valid magic header signature detected",
+        "✓ Valid file footer signature detected",
+        "✓ Expected file size boundary verified",
+        "✓ File internal structure / chunk validation passed",
+        "✓ Contiguous block storage confirmed"
+      ],
+      "recoveredAt": "2026-09-24T17:57:33.379Z"
+    },
+    {
+      "id": "REC-1790272653379-4",
+      "caseId": "CASE-2026-0001",
+      "evidenceId": "EVD-2026-0001",
+      "filename": "intercepted_diagram_reconstructed.png",
+      "fileType": "PNG Image",
+      "category": "Images",
+      "offsetHex": "0x00030000",
+      "offsetDec": 196608,
+      "sizeBytes": 215,
+      "confidenceScore": 98,
+      "confidenceLevel": "HIGH",
+      "reconstructionStatus": "Reconstructed (3 Fragments)",
+      "fragmentCount": 3,
+      "missingFragments": 0,
+      "reconstructionReasons": [
+        "✓ Valid magic header signature detected",
+        "✓ Valid file footer signature detected",
+        "✓ Expected file size boundary verified",
+        "✓ File internal structure / chunk validation passed",
+        "✓ Fragment sequence continuity verified (0 missing fragments)"
+      ],
+      "recoveredAt": "2026-09-24T17:57:33.379Z"
+    },
+    {
+      "id": "REC-1790273515845-1",
+      "caseId": "CASE-TEST-001",
+      "evidenceId": "EVD-2026-0004",
+      "filename": "carved_evidence_photo_0x1000.jpg",
+      "fileType": "JPEG Image",
+      "category": "Images",
+      "offsetHex": "0x00001000",
+      "offsetDec": 4096,
+      "sizeBytes": 117,
+      "confidenceScore": 98,
+      "confidenceLevel": "HIGH",
+      "reconstructionStatus": "Complete",
+      "reconstructionReasons": [
+        "✓ Valid magic header signature detected",
+        "✓ Valid file footer signature detected",
+        "✓ Expected file size boundary verified",
+        "✓ File internal structure / chunk validation passed",
+        "✓ Contiguous block storage confirmed",
+        "✓ 0 read errors encountered on source LBA"
+      ],
+      "recoveredAt": "2026-09-24T18:11:55.845Z"
+    },
+    {
+      "id": "REC-1790273515845-2",
+      "caseId": "CASE-TEST-001",
+      "evidenceId": "EVD-2026-0004",
+      "filename": "SIH_Forensic_Report_0x8000.pdf",
+      "fileType": "PDF Document",
+      "category": "Documents",
+      "offsetHex": "0x00008000",
+      "offsetDec": 32768,
+      "sizeBytes": 245,
+      "confidenceScore": 98,
+      "confidenceLevel": "HIGH",
+      "reconstructionStatus": "Complete",
+      "reconstructionReasons": [
+        "✓ Valid magic header signature detected",
+        "✓ Valid file footer signature detected",
+        "✓ Expected file size boundary verified",
+        "✓ File internal structure / chunk validation passed",
+        "✓ Contiguous block storage confirmed",
+        "✓ 0 read errors encountered on source LBA"
+      ],
+      "recoveredAt": "2026-09-24T18:11:55.845Z"
+    },
+    {
+      "id": "REC-1790273515845-3",
+      "caseId": "CASE-TEST-001",
+      "evidenceId": "EVD-2026-0004",
+      "filename": "suspect_evidence_logs_0x18000.zip",
+      "fileType": "ZIP Archive / Office DOCX",
+      "category": "Archives",
+      "offsetHex": "0x00018000",
+      "offsetDec": 98304,
+      "sizeBytes": 98,
+      "confidenceScore": 98,
+      "confidenceLevel": "HIGH",
+      "reconstructionStatus": "Complete",
+      "reconstructionReasons": [
+        "✓ Valid magic header signature detected",
+        "✓ Valid file footer signature detected",
+        "✓ Expected file size boundary verified",
+        "✓ File internal structure / chunk validation passed",
+        "✓ Contiguous block storage confirmed",
+        "✓ 0 read errors encountered on source LBA"
+      ],
+      "recoveredAt": "2026-09-24T18:11:55.845Z"
+    },
+    {
+      "id": "REC-1790273515845-4",
+      "caseId": "CASE-TEST-001",
+      "evidenceId": "EVD-2026-0004",
+      "filename": "intercepted_evidence_diagram.png",
+      "fileType": "PNG Image",
+      "category": "Images",
+      "offsetHex": "0x00030000",
+      "offsetDec": 196608,
+      "sizeBytes": 215,
+      "confidenceScore": 98,
+      "confidenceLevel": "HIGH",
+      "reconstructionStatus": "Reconstructed (3 Fragments)",
+      "fragmentCount": 3,
+      "missingFragments": 0,
+      "reconstructionReasons": [
+        "✓ Valid magic header signature detected",
+        "✓ Valid file footer signature detected",
+        "✓ Expected file size boundary verified",
+        "✓ File internal structure / chunk validation passed",
+        "✓ Fragment sequence continuity verified (0 missing fragments)",
+        "✓ 0 read errors encountered on source LBA"
+      ],
+      "recoveredAt": "2026-09-24T18:11:55.845Z"
+    },
+    {
+      "id": "REC-1790275518481-1",
+      "caseId": "CASE-2026-0001",
+      "evidenceId": "EVD-2026-0001",
+      "filename": "carved_evidence_photo_0x1000.jpg",
+      "fileType": "JPEG Image",
+      "category": "Images",
+      "offsetHex": "0x00001000",
+      "offsetDec": 4096,
+      "sizeBytes": 117,
+      "confidenceScore": 98,
+      "confidenceLevel": "HIGH",
+      "reconstructionStatus": "Complete",
+      "reconstructionReasons": [
+        "✓ Valid magic header signature detected",
+        "✓ Valid file footer signature detected",
+        "✓ Expected file size boundary verified",
+        "✓ File internal structure / chunk validation passed",
+        "✓ Contiguous block storage confirmed",
+        "✓ 0 read errors encountered on source LBA"
+      ],
+      "recoveredAt": "2026-09-24T18:45:18.481Z"
+    },
+    {
+      "id": "REC-1790275518481-2",
+      "caseId": "CASE-2026-0001",
+      "evidenceId": "EVD-2026-0001",
+      "filename": "SIH_Forensic_Report_0x8000.pdf",
+      "fileType": "PDF Document",
+      "category": "Documents",
+      "offsetHex": "0x00008000",
+      "offsetDec": 32768,
+      "sizeBytes": 245,
+      "confidenceScore": 98,
+      "confidenceLevel": "HIGH",
+      "reconstructionStatus": "Complete",
+      "reconstructionReasons": [
+        "✓ Valid magic header signature detected",
+        "✓ Valid file footer signature detected",
+        "✓ Expected file size boundary verified",
+        "✓ File internal structure / chunk validation passed",
+        "✓ Contiguous block storage confirmed",
+        "✓ 0 read errors encountered on source LBA"
+      ],
+      "recoveredAt": "2026-09-24T18:45:18.481Z"
+    },
+    {
+      "id": "REC-1790275518481-3",
+      "caseId": "CASE-2026-0001",
+      "evidenceId": "EVD-2026-0001",
+      "filename": "suspect_evidence_logs_0x18000.zip",
+      "fileType": "ZIP Archive / Office DOCX",
+      "category": "Archives",
+      "offsetHex": "0x00018000",
+      "offsetDec": 98304,
+      "sizeBytes": 98,
+      "confidenceScore": 98,
+      "confidenceLevel": "HIGH",
+      "reconstructionStatus": "Complete",
+      "reconstructionReasons": [
+        "✓ Valid magic header signature detected",
+        "✓ Valid file footer signature detected",
+        "✓ Expected file size boundary verified",
+        "✓ File internal structure / chunk validation passed",
+        "✓ Contiguous block storage confirmed",
+        "✓ 0 read errors encountered on source LBA"
+      ],
+      "recoveredAt": "2026-09-24T18:45:18.481Z"
+    },
+    {
+      "id": "REC-1790275518481-4",
+      "caseId": "CASE-2026-0001",
+      "evidenceId": "EVD-2026-0001",
+      "filename": "intercepted_evidence_diagram.png",
+      "fileType": "PNG Image",
+      "category": "Images",
+      "offsetHex": "0x00030000",
+      "offsetDec": 196608,
+      "sizeBytes": 215,
+      "confidenceScore": 98,
+      "confidenceLevel": "HIGH",
+      "reconstructionStatus": "Reconstructed (3 Fragments)",
+      "fragmentCount": 3,
+      "missingFragments": 0,
+      "reconstructionReasons": [
+        "✓ Valid magic header signature detected",
+        "✓ Valid file footer signature detected",
+        "✓ Expected file size boundary verified",
+        "✓ File internal structure / chunk validation passed",
+        "✓ Fragment sequence continuity verified (0 missing fragments)",
+        "✓ 0 read errors encountered on source LBA"
+      ],
+      "recoveredAt": "2026-09-24T18:45:18.481Z"
+    }
+  ],
+  "auditLogs": [
+    {
+      "id": "LOG-001",
+      "timestamp": "2026-09-24T09:30:00.000Z",
+      "user": "Sgt. Vikram Singh",
+      "caseId": "CASE-2026-0001",
+      "evidenceId": "N/A",
+      "action": "CASE_CREATED",
+      "result": "SUCCESS",
+      "details": "Case CASE-2026-0001 initialized by Sgt. Vikram Singh.",
+      "prevHash": "0000000000000000000000000000000000000000000000000000000000000000",
+      "hash": "2c7c95f2dac8334748a7cec02cdd8dda201214300a429fdc9d1b693b7a48d129"
+    },
+    {
+      "id": "LOG-002",
+      "timestamp": "2026-09-24T09:32:00.000Z",
+      "user": "Sgt. Vikram Singh",
+      "caseId": "CASE-2026-0001",
+      "evidenceId": "EVD-2026-0001",
+      "action": "EVIDENCE_ADDED",
+      "result": "SUCCESS",
+      "details": "Evidence sample_drive.img registered with READ-ONLY lock.",
+      "prevHash": "2c7c95f2dac8334748a7cec02cdd8dda201214300a429fdc9d1b693b7a48d129",
+      "hash": "15c36c41b500328b2d41a7e0f42320a27cf5eb1ce71fb4ee6f3968b288eaa650"
+    },
+    {
+      "id": "LOG-003",
+      "timestamp": "2026-09-24T09:33:00.000Z",
+      "user": "Sgt. Vikram Singh",
+      "caseId": "CASE-2026-0001",
+      "evidenceId": "EVD-2026-0001",
+      "action": "HASH_CREATED",
+      "result": "SUCCESS",
+      "details": "SHA-256 computed: 8de9c0f89d96f062... VERIFIED.",
+      "prevHash": "15c36c41b500328b2d41a7e0f42320a27cf5eb1ce71fb4ee6f3968b288eaa650",
+      "hash": "b3d135096a378cf9292cfeb2b7dfd9a29660b092dc351524db13018414afb7d0"
+    },
+    {
+      "id": "LOG-004",
+      "timestamp": "2026-09-24T09:35:00.000Z",
+      "user": "Sgt. Vikram Singh",
+      "caseId": "CASE-2026-0001",
+      "evidenceId": "EVD-2026-0001",
+      "action": "DEVICE_ANALYZED",
+      "result": "SUCCESS",
+      "details": "Device structure analyzed: raw image, 2MB capacity.",
+      "prevHash": "b3d135096a378cf9292cfeb2b7dfd9a29660b092dc351524db13018414afb7d0",
+      "hash": "746230bc796f986bb39f242a2858d669d73eb03350463138814143678f8be9e2"
+    },
+    {
+      "id": "LOG-005",
+      "timestamp": "2026-09-24T09:37:00.000Z",
+      "user": "Sgt. Vikram Singh",
+      "caseId": "CASE-2026-0001",
+      "evidenceId": "EVD-2026-0001",
+      "action": "RECOVERY_STARTED",
+      "result": "SUCCESS",
+      "details": "Signature carving initiated with 6 active signature plugins.",
+      "prevHash": "746230bc796f986bb39f242a2858d669d73eb03350463138814143678f8be9e2",
+      "hash": "552cfdf2a9a9f4efe458047512b79b4df9d491ecb98ef9f4d58e727c96269b86"
+    },
+    {
+      "id": "LOG-006",
+      "timestamp": "2026-09-24T09:42:00.000Z",
+      "user": "Sgt. Vikram Singh",
+      "caseId": "CASE-2026-0001",
+      "evidenceId": "EVD-2026-0001",
+      "action": "FILE_RECOVERED",
+      "result": "SUCCESS",
+      "details": "4 evidence files recovered (JPG, PDF, ZIP, PNG) with avg confidence 92%.",
+      "prevHash": "552cfdf2a9a9f4efe458047512b79b4df9d491ecb98ef9f4d58e727c96269b86",
+      "hash": "dc9d10995310e0d80e01d55150f30dea841466e87c73c49672d3dad542694929"
+    },
+    {
+      "id": "LOG-007",
+      "timestamp": "2026-09-24T09:45:00.000Z",
+      "user": "Sgt. Vikram Singh",
+      "caseId": "CASE-2026-0001",
+      "evidenceId": "EVD-2026-0001",
+      "action": "VERIFICATION_COMPLETED",
+      "result": "SUCCESS",
+      "details": "Cryptographic hash and recovery structure verification passed.",
+      "prevHash": "dc9d10995310e0d80e01d55150f30dea841466e87c73c49672d3dad542694929",
+      "hash": "cb7bec8aca332c619464f3d4041971ac2285ed71a40281c9144949e6da1293be"
+    },
+    {
+      "id": "LOG-008",
+      "timestamp": "2026-09-24T17:22:47.600Z",
+      "user": "Investigator",
+      "caseId": "CASE-TEST-001",
+      "evidenceId": "EVD-2026-0002",
+      "action": "EVIDENCE_ADDED",
+      "result": "SUCCESS",
+      "details": "Evidence 'test_sample.img' registered with SHA-256 8de9c0f89d96f062...",
+      "prevHash": "cb7bec8aca332c619464f3d4041971ac2285ed71a40281c9144949e6da1293be",
+      "hash": "5ead9ba4352ceeb247ae95a0d4475b27ba1f9407e022233ae2b70a54650355c6"
+    },
+    {
+      "id": "LOG-009",
+      "timestamp": "2026-09-24T17:22:47.601Z",
+      "user": "Investigator",
+      "caseId": "CASE-TEST-001",
+      "evidenceId": "EVD-2026-0002",
+      "action": "VERIFICATION_COMPLETED",
+      "result": "SUCCESS",
+      "details": "Evidence EVD-2026-0002 SHA-256 integrity VERIFIED (8de9c0f89d96f062...)",
+      "prevHash": "5ead9ba4352ceeb247ae95a0d4475b27ba1f9407e022233ae2b70a54650355c6",
+      "hash": "ea0edf5ca1c383cc6d748dc865f624eb71c1639f9e51cce0c391b7788649f57b"
+    },
+    {
+      "id": "LOG-010",
+      "timestamp": "2026-09-24T17:23:21.083Z",
+      "user": "Investigator",
+      "caseId": "CASE-TEST-001",
+      "evidenceId": "EVD-2026-0003",
+      "action": "EVIDENCE_ADDED",
+      "result": "SUCCESS",
+      "details": "Evidence 'test_sample.img' registered with SHA-256 8de9c0f89d96f062...",
+      "prevHash": "ea0edf5ca1c383cc6d748dc865f624eb71c1639f9e51cce0c391b7788649f57b",
+      "hash": "f3d0057ab8e604327766199bbebb0c227af2696692b6b266e587edcb05d6eda9"
+    },
+    {
+      "id": "LOG-011",
+      "timestamp": "2026-09-24T17:23:21.084Z",
+      "user": "Investigator",
+      "caseId": "CASE-TEST-001",
+      "evidenceId": "EVD-2026-0003",
+      "action": "VERIFICATION_COMPLETED",
+      "result": "SUCCESS",
+      "details": "Evidence EVD-2026-0003 SHA-256 integrity VERIFIED (8de9c0f89d96f062...)",
+      "prevHash": "f3d0057ab8e604327766199bbebb0c227af2696692b6b266e587edcb05d6eda9",
+      "hash": "0cb39fce8ba83d6646bb3aaa03bcf6c49bcfaf4721a43626ac18d5d2b17c5229"
+    },
+    {
+      "id": "LOG-012",
+      "timestamp": "2026-09-24T17:23:21.085Z",
+      "user": "Investigator",
+      "caseId": "CASE-TEST-001",
+      "evidenceId": "EVD-2026-0003",
+      "action": "FILE_RECOVERED",
+      "result": "SUCCESS",
+      "details": "Signature carving completed on test_sample.img. 4 files recovered.",
+      "prevHash": "0cb39fce8ba83d6646bb3aaa03bcf6c49bcfaf4721a43626ac18d5d2b17c5229",
+      "hash": "7ed9167c1d5d018671a4cc083ffe28851d669be3db61d862af91607b763ce0e1"
+    },
+    {
+      "id": "LOG-013",
+      "timestamp": "2026-09-24T17:23:21.085Z",
+      "user": "Investigator",
+      "caseId": "CASE-TEST-001",
+      "evidenceId": "N/A",
+      "action": "TEST_EVENT",
+      "result": "SUCCESS",
+      "details": "Automated test suite audit event.",
+      "prevHash": "7ed9167c1d5d018671a4cc083ffe28851d669be3db61d862af91607b763ce0e1",
+      "hash": "0238b56e5c53b664b4aedbed77d0ab749bc56a0275a5fd349ac63066b288bec6"
+    },
+    {
+      "id": "LOG-014",
+      "timestamp": "2026-09-24T17:23:21.087Z",
+      "user": "System Auditor",
+      "caseId": "CASE-2026-0001",
+      "evidenceId": "EVD-2026-0001",
+      "action": "VERIFICATION_COMPLETED",
+      "result": "SUCCESS",
+      "details": "Evidence EVD-2026-0001 SHA-256 integrity VERIFIED (8de9c0f89d96f062...)",
+      "prevHash": "0238b56e5c53b664b4aedbed77d0ab749bc56a0275a5fd349ac63066b288bec6",
+      "hash": "f7ddfb3ed2158e44ff58e525423cac1164155f7f27545b373259fb9cfaedc7a0"
+    },
+    {
+      "id": "LOG-015",
+      "timestamp": "2026-09-24T17:41:03.225Z",
+      "user": "System Auditor",
+      "caseId": "CASE-2026-0001",
+      "evidenceId": "EVD-2026-0001",
+      "action": "VERIFICATION_COMPLETED",
+      "result": "SUCCESS",
+      "details": "Evidence EVD-2026-0001 SHA-256 integrity VERIFIED (8de9c0f89d96f062...)",
+      "prevHash": "f7ddfb3ed2158e44ff58e525423cac1164155f7f27545b373259fb9cfaedc7a0",
+      "hash": "12b2445af5edf4cc32ea421df57291579df011e9150788e26ae90ccd57a1c05f"
+    },
+    {
+      "id": "LOG-016",
+      "timestamp": "2026-09-24T17:41:03.229Z",
+      "user": "System Auditor",
+      "caseId": "CASE-TEST-001",
+      "evidenceId": "EVD-2026-0002",
+      "action": "VERIFICATION_COMPLETED",
+      "result": "SUCCESS",
+      "details": "Evidence EVD-2026-0002 SHA-256 integrity VERIFIED (8de9c0f89d96f062...)",
+      "prevHash": "12b2445af5edf4cc32ea421df57291579df011e9150788e26ae90ccd57a1c05f",
+      "hash": "9b9386b4a9f17bf29c2059a80cdea636f39c692e5b91afa42cd77ec6ce84cbc0"
+    },
+    {
+      "id": "LOG-017",
+      "timestamp": "2026-09-24T17:41:03.232Z",
+      "user": "System Auditor",
+      "caseId": "CASE-TEST-001",
+      "evidenceId": "EVD-2026-0003",
+      "action": "VERIFICATION_COMPLETED",
+      "result": "SUCCESS",
+      "details": "Evidence EVD-2026-0003 SHA-256 integrity VERIFIED (8de9c0f89d96f062...)",
+      "prevHash": "9b9386b4a9f17bf29c2059a80cdea636f39c692e5b91afa42cd77ec6ce84cbc0",
+      "hash": "8d68a5ebb45392ac616b69c271b7527a2cba2d4c83a88eb1c0565df197818280"
+    },
+    {
+      "id": "LOG-018",
+      "timestamp": "2026-09-24T17:41:03.239Z",
+      "user": "System Auditor",
+      "caseId": "CASE-2026-0001",
+      "evidenceId": "EVD-2026-0001",
+      "action": "VERIFICATION_COMPLETED",
+      "result": "SUCCESS",
+      "details": "Evidence EVD-2026-0001 SHA-256 integrity VERIFIED (8de9c0f89d96f062...)",
+      "prevHash": "8d68a5ebb45392ac616b69c271b7527a2cba2d4c83a88eb1c0565df197818280",
+      "hash": "b0d6ff044f055bda809118dfdd60d5c07c00d281c241d608432a8246697f37d1"
+    },
+    {
+      "id": "LOG-019",
+      "timestamp": "2026-09-24T17:41:03.240Z",
+      "user": "System Auditor",
+      "caseId": "CASE-TEST-001",
+      "evidenceId": "EVD-2026-0002",
+      "action": "VERIFICATION_COMPLETED",
+      "result": "SUCCESS",
+      "details": "Evidence EVD-2026-0002 SHA-256 integrity VERIFIED (8de9c0f89d96f062...)",
+      "prevHash": "b0d6ff044f055bda809118dfdd60d5c07c00d281c241d608432a8246697f37d1",
+      "hash": "6c9a40876fcf6ac0cf64d0849aa8ea19d50c00cb6f4e81bc27756d808a6ec868"
+    },
+    {
+      "id": "LOG-020",
+      "timestamp": "2026-09-24T17:41:03.241Z",
+      "user": "System Auditor",
+      "caseId": "CASE-TEST-001",
+      "evidenceId": "EVD-2026-0003",
+      "action": "VERIFICATION_COMPLETED",
+      "result": "SUCCESS",
+      "details": "Evidence EVD-2026-0003 SHA-256 integrity VERIFIED (8de9c0f89d96f062...)",
+      "prevHash": "6c9a40876fcf6ac0cf64d0849aa8ea19d50c00cb6f4e81bc27756d808a6ec868",
+      "hash": "97db14dbaaf0ea245d65fc77e4d77b6e27a087545666ebe950931867aedf099f"
+    },
+    {
+      "id": "LOG-021",
+      "timestamp": "2026-09-24T17:42:45.868Z",
+      "user": "Investigator",
+      "caseId": "CASE-2026-0001",
+      "evidenceId": "EVD-2026-0001",
+      "action": "FILE_RECOVERED",
+      "result": "SUCCESS",
+      "details": "Signature carving completed on sample_drive.img. 4 files recovered.",
+      "prevHash": "97db14dbaaf0ea245d65fc77e4d77b6e27a087545666ebe950931867aedf099f",
+      "hash": "27eb801cacc6eb018612addba32da03e71d1149c270c7850a0b8cb1eabfe9335"
+    },
+    {
+      "id": "LOG-022",
+      "timestamp": "2026-09-24T17:42:45.888Z",
+      "user": "System Auditor",
+      "caseId": "CASE-2026-0001",
+      "evidenceId": "EVD-2026-0001",
+      "action": "VERIFICATION_COMPLETED",
+      "result": "SUCCESS",
+      "details": "Evidence EVD-2026-0001 SHA-256 integrity VERIFIED (8de9c0f89d96f062...)",
+      "prevHash": "27eb801cacc6eb018612addba32da03e71d1149c270c7850a0b8cb1eabfe9335",
+      "hash": "ff1f7c6544d04cd0e3d88bbb37b9bc603fa757d80a462e278d13a642ae9582c3"
+    },
+    {
+      "id": "LOG-023",
+      "timestamp": "2026-09-24T17:42:45.890Z",
+      "user": "System Auditor",
+      "caseId": "CASE-TEST-001",
+      "evidenceId": "EVD-2026-0002",
+      "action": "VERIFICATION_COMPLETED",
+      "result": "SUCCESS",
+      "details": "Evidence EVD-2026-0002 SHA-256 integrity VERIFIED (8de9c0f89d96f062...)",
+      "prevHash": "ff1f7c6544d04cd0e3d88bbb37b9bc603fa757d80a462e278d13a642ae9582c3",
+      "hash": "500a78bd313094999771b921e92b989cd46fffa3586888da4162afb72a35436b"
+    },
+    {
+      "id": "LOG-024",
+      "timestamp": "2026-09-24T17:42:45.891Z",
+      "user": "System Auditor",
+      "caseId": "CASE-TEST-001",
+      "evidenceId": "EVD-2026-0003",
+      "action": "VERIFICATION_COMPLETED",
+      "result": "SUCCESS",
+      "details": "Evidence EVD-2026-0003 SHA-256 integrity VERIFIED (8de9c0f89d96f062...)",
+      "prevHash": "500a78bd313094999771b921e92b989cd46fffa3586888da4162afb72a35436b",
+      "hash": "6592285a496f97da28179fac6b7c36b76a0028369ea1aeabd29eadcbadbb4126"
+    },
+    {
+      "id": "LOG-025",
+      "timestamp": "2026-09-24T17:43:03.130Z",
+      "user": "System Auditor",
+      "caseId": "CASE-2026-0001",
+      "evidenceId": "EVD-2026-0001",
+      "action": "VERIFICATION_COMPLETED",
+      "result": "SUCCESS",
+      "details": "Evidence EVD-2026-0001 SHA-256 integrity VERIFIED (8de9c0f89d96f062...)",
+      "prevHash": "6592285a496f97da28179fac6b7c36b76a0028369ea1aeabd29eadcbadbb4126",
+      "hash": "339624518e98c709f6eab460adcdf322dfcb2196ac3820d6800f7e71c0834949"
+    },
+    {
+      "id": "LOG-026",
+      "timestamp": "2026-09-24T17:43:04.127Z",
+      "user": "System Auditor",
+      "caseId": "CASE-2026-0001",
+      "evidenceId": "EVD-2026-0001",
+      "action": "VERIFICATION_COMPLETED",
+      "result": "SUCCESS",
+      "details": "Evidence EVD-2026-0001 SHA-256 integrity VERIFIED (8de9c0f89d96f062...)",
+      "prevHash": "339624518e98c709f6eab460adcdf322dfcb2196ac3820d6800f7e71c0834949",
+      "hash": "ff81d3e22ed94d13293abf02693b2450bc798140d1db20b45bf828d9da427e81"
+    },
+    {
+      "id": "LOG-027",
+      "timestamp": "2026-09-24T17:43:51.500Z",
+      "user": "System Auditor",
+      "caseId": "CASE-2026-0001",
+      "evidenceId": "EVD-2026-0001",
+      "action": "VERIFICATION_COMPLETED",
+      "result": "SUCCESS",
+      "details": "Evidence EVD-2026-0001 SHA-256 integrity VERIFIED (8de9c0f89d96f062...)",
+      "prevHash": "ff81d3e22ed94d13293abf02693b2450bc798140d1db20b45bf828d9da427e81",
+      "hash": "48ad9829ae44a097df8deda5aafb971fb79db7a8443e92a8cbe7a77b808f5f64"
+    },
+    {
+      "id": "LOG-028",
+      "timestamp": "2026-09-24T17:43:51.504Z",
+      "user": "System Auditor",
+      "caseId": "CASE-TEST-001",
+      "evidenceId": "EVD-2026-0002",
+      "action": "VERIFICATION_COMPLETED",
+      "result": "SUCCESS",
+      "details": "Evidence EVD-2026-0002 SHA-256 integrity VERIFIED (8de9c0f89d96f062...)",
+      "prevHash": "48ad9829ae44a097df8deda5aafb971fb79db7a8443e92a8cbe7a77b808f5f64",
+      "hash": "65396f0ce999e113ab875d28093dd4c0872f5ff69e42caa43c344cd176e1f63b"
+    },
+    {
+      "id": "LOG-029",
+      "timestamp": "2026-09-24T17:43:51.506Z",
+      "user": "System Auditor",
+      "caseId": "CASE-TEST-001",
+      "evidenceId": "EVD-2026-0003",
+      "action": "VERIFICATION_COMPLETED",
+      "result": "SUCCESS",
+      "details": "Evidence EVD-2026-0003 SHA-256 integrity VERIFIED (8de9c0f89d96f062...)",
+      "prevHash": "65396f0ce999e113ab875d28093dd4c0872f5ff69e42caa43c344cd176e1f63b",
+      "hash": "ba2319996309580b907aa913d8ef253710f31862f73356afc5c68d278a0c0c01"
+    },
+    {
+      "id": "LOG-030",
+      "timestamp": "2026-09-24T17:43:51.513Z",
+      "user": "System Auditor",
+      "caseId": "CASE-2026-0001",
+      "evidenceId": "EVD-2026-0001",
+      "action": "VERIFICATION_COMPLETED",
+      "result": "SUCCESS",
+      "details": "Evidence EVD-2026-0001 SHA-256 integrity VERIFIED (8de9c0f89d96f062...)",
+      "prevHash": "ba2319996309580b907aa913d8ef253710f31862f73356afc5c68d278a0c0c01",
+      "hash": "20373022c785b4391db03d2efe7f99a96f852d94832eed3a335531618b55a9aa"
+    },
+    {
+      "id": "LOG-031",
+      "timestamp": "2026-09-24T17:43:51.514Z",
+      "user": "System Auditor",
+      "caseId": "CASE-TEST-001",
+      "evidenceId": "EVD-2026-0002",
+      "action": "VERIFICATION_COMPLETED",
+      "result": "SUCCESS",
+      "details": "Evidence EVD-2026-0002 SHA-256 integrity VERIFIED (8de9c0f89d96f062...)",
+      "prevHash": "20373022c785b4391db03d2efe7f99a96f852d94832eed3a335531618b55a9aa",
+      "hash": "5686330a50cda3f02c83cbeaa28400fa925df03df4dee083522684851f57875f"
+    },
+    {
+      "id": "LOG-032",
+      "timestamp": "2026-09-24T17:43:51.516Z",
+      "user": "System Auditor",
+      "caseId": "CASE-TEST-001",
+      "evidenceId": "EVD-2026-0003",
+      "action": "VERIFICATION_COMPLETED",
+      "result": "SUCCESS",
+      "details": "Evidence EVD-2026-0003 SHA-256 integrity VERIFIED (8de9c0f89d96f062...)",
+      "prevHash": "5686330a50cda3f02c83cbeaa28400fa925df03df4dee083522684851f57875f",
+      "hash": "5412296e91f41364238da578351ab79e8e5a350fe715071dd1bef63f9b6cec1c"
+    },
+    {
+      "id": "LOG-033",
+      "timestamp": "2026-09-24T17:47:13.485Z",
+      "user": "Investigator",
+      "caseId": "CASE-2026-0001",
+      "evidenceId": "EVD-2026-0001",
+      "action": "FILE_RECOVERED",
+      "result": "SUCCESS",
+      "details": "Signature carving completed on sample_drive.img. 4 files recovered.",
+      "prevHash": "5412296e91f41364238da578351ab79e8e5a350fe715071dd1bef63f9b6cec1c",
+      "hash": "cb52fd94fbb5d9577358768383c7060ff1062f86312659efd50d2ed24c88c208"
+    },
+    {
+      "id": "LOG-034",
+      "timestamp": "2026-09-24T17:47:13.502Z",
+      "user": "System Auditor",
+      "caseId": "CASE-2026-0001",
+      "evidenceId": "EVD-2026-0001",
+      "action": "VERIFICATION_COMPLETED",
+      "result": "SUCCESS",
+      "details": "Evidence EVD-2026-0001 SHA-256 integrity VERIFIED (8de9c0f89d96f062...)",
+      "prevHash": "cb52fd94fbb5d9577358768383c7060ff1062f86312659efd50d2ed24c88c208",
+      "hash": "a1cc15003cfed7e2fd11895a2d149db96f0d0aa209dccaa8eab55157ab159447"
+    },
+    {
+      "id": "LOG-035",
+      "timestamp": "2026-09-24T17:47:13.504Z",
+      "user": "System Auditor",
+      "caseId": "CASE-TEST-001",
+      "evidenceId": "EVD-2026-0002",
+      "action": "VERIFICATION_COMPLETED",
+      "result": "SUCCESS",
+      "details": "Evidence EVD-2026-0002 SHA-256 integrity VERIFIED (8de9c0f89d96f062...)",
+      "prevHash": "a1cc15003cfed7e2fd11895a2d149db96f0d0aa209dccaa8eab55157ab159447",
+      "hash": "f53c52516c83cc076ec1cceff112528a90779c1ae0c34065c90bef68a83ed14a"
+    },
+    {
+      "id": "LOG-036",
+      "timestamp": "2026-09-24T17:47:13.506Z",
+      "user": "System Auditor",
+      "caseId": "CASE-TEST-001",
+      "evidenceId": "EVD-2026-0003",
+      "action": "VERIFICATION_COMPLETED",
+      "result": "SUCCESS",
+      "details": "Evidence EVD-2026-0003 SHA-256 integrity VERIFIED (8de9c0f89d96f062...)",
+      "prevHash": "f53c52516c83cc076ec1cceff112528a90779c1ae0c34065c90bef68a83ed14a",
+      "hash": "c0430d68200d1a9c6b4539ff61f8e3f1c23057d53ae944bc46e14b8716215d95"
+    },
+    {
+      "id": "LOG-037",
+      "timestamp": "2026-09-24T17:57:27.153Z",
+      "user": "System Auditor",
+      "caseId": "CASE-2026-0001",
+      "evidenceId": "EVD-2026-0001",
+      "action": "VERIFICATION_COMPLETED",
+      "result": "SUCCESS",
+      "details": "Evidence EVD-2026-0001 SHA-256 integrity VERIFIED (8de9c0f89d96f062...)",
+      "prevHash": "c0430d68200d1a9c6b4539ff61f8e3f1c23057d53ae944bc46e14b8716215d95",
+      "hash": "dab170b5eab840c2a2874a66f1e040832bfb5608ee6c219740667d414a602e58"
+    },
+    {
+      "id": "LOG-038",
+      "timestamp": "2026-09-24T17:57:27.154Z",
+      "user": "System Auditor",
+      "caseId": "CASE-TEST-001",
+      "evidenceId": "EVD-2026-0002",
+      "action": "VERIFICATION_COMPLETED",
+      "result": "SUCCESS",
+      "details": "Evidence EVD-2026-0002 SHA-256 integrity VERIFIED (8de9c0f89d96f062...)",
+      "prevHash": "dab170b5eab840c2a2874a66f1e040832bfb5608ee6c219740667d414a602e58",
+      "hash": "212fc791a14a9e0288dd1ec75b046301a9335c3fcd9dd42af8165dcbcb1b47d0"
+    },
+    {
+      "id": "LOG-039",
+      "timestamp": "2026-09-24T17:57:27.155Z",
+      "user": "System Auditor",
+      "caseId": "CASE-TEST-001",
+      "evidenceId": "EVD-2026-0003",
+      "action": "VERIFICATION_COMPLETED",
+      "result": "SUCCESS",
+      "details": "Evidence EVD-2026-0003 SHA-256 integrity VERIFIED (8de9c0f89d96f062...)",
+      "prevHash": "212fc791a14a9e0288dd1ec75b046301a9335c3fcd9dd42af8165dcbcb1b47d0",
+      "hash": "a962bfe7f1772ebdfdb0d6522e40984389889846a60e398e0505da73c90ede43"
+    },
+    {
+      "id": "LOG-040",
+      "timestamp": "2026-09-24T17:57:27.159Z",
+      "user": "System Auditor",
+      "caseId": "CASE-2026-0001",
+      "evidenceId": "EVD-2026-0001",
+      "action": "VERIFICATION_COMPLETED",
+      "result": "SUCCESS",
+      "details": "Evidence EVD-2026-0001 SHA-256 integrity VERIFIED (8de9c0f89d96f062...)",
+      "prevHash": "a962bfe7f1772ebdfdb0d6522e40984389889846a60e398e0505da73c90ede43",
+      "hash": "bb3f818cce7a63885762d3b5287fac7aa7865fc1abdf2199ac687b3646ed20e5"
+    },
+    {
+      "id": "LOG-041",
+      "timestamp": "2026-09-24T17:57:27.161Z",
+      "user": "System Auditor",
+      "caseId": "CASE-TEST-001",
+      "evidenceId": "EVD-2026-0002",
+      "action": "VERIFICATION_COMPLETED",
+      "result": "SUCCESS",
+      "details": "Evidence EVD-2026-0002 SHA-256 integrity VERIFIED (8de9c0f89d96f062...)",
+      "prevHash": "bb3f818cce7a63885762d3b5287fac7aa7865fc1abdf2199ac687b3646ed20e5",
+      "hash": "72deedd353a2a085942c7328c8e5dbd3661abaf4615d3c997f3f97554010ba42"
+    },
+    {
+      "id": "LOG-042",
+      "timestamp": "2026-09-24T17:57:27.162Z",
+      "user": "System Auditor",
+      "caseId": "CASE-TEST-001",
+      "evidenceId": "EVD-2026-0003",
+      "action": "VERIFICATION_COMPLETED",
+      "result": "SUCCESS",
+      "details": "Evidence EVD-2026-0003 SHA-256 integrity VERIFIED (8de9c0f89d96f062...)",
+      "prevHash": "72deedd353a2a085942c7328c8e5dbd3661abaf4615d3c997f3f97554010ba42",
+      "hash": "22ab7f10f3e9b89790817a75031119fe177e15eb132cb593d4571f44e5274023"
+    },
+    {
+      "id": "LOG-043",
+      "timestamp": "2026-09-24T17:57:33.382Z",
+      "user": "Investigator",
+      "caseId": "CASE-2026-0001",
+      "evidenceId": "EVD-2026-0001",
+      "action": "FILE_RECOVERED",
+      "result": "SUCCESS",
+      "details": "Signature carving completed on sample_drive.img. 4 files recovered.",
+      "prevHash": "22ab7f10f3e9b89790817a75031119fe177e15eb132cb593d4571f44e5274023",
+      "hash": "e2484147745a7d3fe79e5dd880d65bc11ea03f782fa19667c8e2fcd18e5c0ef1"
+    },
+    {
+      "id": "LOG-044",
+      "timestamp": "2026-09-24T17:57:33.394Z",
+      "user": "System Auditor",
+      "caseId": "CASE-2026-0001",
+      "evidenceId": "EVD-2026-0001",
+      "action": "VERIFICATION_COMPLETED",
+      "result": "SUCCESS",
+      "details": "Evidence EVD-2026-0001 SHA-256 integrity VERIFIED (8de9c0f89d96f062...)",
+      "prevHash": "e2484147745a7d3fe79e5dd880d65bc11ea03f782fa19667c8e2fcd18e5c0ef1",
+      "hash": "cdbc3f21c183a5993eb7b3b38603e24cc852fd34750613709e163e0aceeb3f4f"
+    },
+    {
+      "id": "LOG-045",
+      "timestamp": "2026-09-24T17:57:33.397Z",
+      "user": "System Auditor",
+      "caseId": "CASE-TEST-001",
+      "evidenceId": "EVD-2026-0002",
+      "action": "VERIFICATION_COMPLETED",
+      "result": "SUCCESS",
+      "details": "Evidence EVD-2026-0002 SHA-256 integrity VERIFIED (8de9c0f89d96f062...)",
+      "prevHash": "cdbc3f21c183a5993eb7b3b38603e24cc852fd34750613709e163e0aceeb3f4f",
+      "hash": "1402cb2ad7e2274d69d4c2a3568020607fce69afd8ea09b1f0009804845a1441"
+    },
+    {
+      "id": "LOG-046",
+      "timestamp": "2026-09-24T17:57:33.401Z",
+      "user": "System Auditor",
+      "caseId": "CASE-TEST-001",
+      "evidenceId": "EVD-2026-0003",
+      "action": "VERIFICATION_COMPLETED",
+      "result": "SUCCESS",
+      "details": "Evidence EVD-2026-0003 SHA-256 integrity VERIFIED (8de9c0f89d96f062...)",
+      "prevHash": "1402cb2ad7e2274d69d4c2a3568020607fce69afd8ea09b1f0009804845a1441",
+      "hash": "c123bb0e458b12194e9dbbfa5414e1fb95d2abc83a7e86ba36d91b03bf8e1639"
+    },
+    {
+      "id": "LOG-047",
+      "timestamp": "2026-09-24T18:11:55.843Z",
+      "user": "Investigator",
+      "caseId": "CASE-TEST-001",
+      "evidenceId": "EVD-2026-0004",
+      "action": "EVIDENCE_ADDED",
+      "result": "SUCCESS",
+      "details": "Evidence 'test_sample.img' registered with SHA-256 8de9c0f89d96f062...",
+      "prevHash": "c123bb0e458b12194e9dbbfa5414e1fb95d2abc83a7e86ba36d91b03bf8e1639",
+      "hash": "25956ebae25fc6e05b10b33ad65a7db08b86cc270a6faef18fd8e02ad01a4d9e"
+    },
+    {
+      "id": "LOG-048",
+      "timestamp": "2026-09-24T18:11:55.845Z",
+      "user": "Investigator",
+      "caseId": "CASE-TEST-001",
+      "evidenceId": "EVD-2026-0004",
+      "action": "VERIFICATION_COMPLETED",
+      "result": "SUCCESS",
+      "details": "Evidence EVD-2026-0004 SHA-256 integrity VERIFIED (8de9c0f89d96f062...)",
+      "prevHash": "25956ebae25fc6e05b10b33ad65a7db08b86cc270a6faef18fd8e02ad01a4d9e",
+      "hash": "d14382e7a0786db311f972620effc534cfcadbf4e3aa03ca7199f9933610d4d2"
+    },
+    {
+      "id": "LOG-049",
+      "timestamp": "2026-09-24T18:11:55.846Z",
+      "user": "Investigator",
+      "caseId": "CASE-TEST-001",
+      "evidenceId": "EVD-2026-0004",
+      "action": "FILE_RECOVERED",
+      "result": "SUCCESS",
+      "details": "Signature carving completed on test_sample.img. 4 files extracted.",
+      "prevHash": "d14382e7a0786db311f972620effc534cfcadbf4e3aa03ca7199f9933610d4d2",
+      "hash": "2e96f3125bc249a98502541f20cc411688e3a88fb9794ba899cc9a15f81963c0"
+    },
+    {
+      "id": "LOG-050",
+      "timestamp": "2026-09-24T18:11:55.846Z",
+      "user": "Investigator",
+      "caseId": "CASE-TEST-001",
+      "evidenceId": "N/A",
+      "action": "TEST_EVENT",
+      "result": "SUCCESS",
+      "details": "Automated test suite audit event.",
+      "prevHash": "2e96f3125bc249a98502541f20cc411688e3a88fb9794ba899cc9a15f81963c0",
+      "hash": "7552b334dcc706695afd4a49c697fb321f8b58a27a799829d818d23152e1e5e0"
+    },
+    {
+      "id": "LOG-051",
+      "timestamp": "2026-09-24T18:11:55.848Z",
+      "user": "System Auditor",
+      "caseId": "CASE-2026-0001",
+      "evidenceId": "EVD-2026-0001",
+      "action": "VERIFICATION_COMPLETED",
+      "result": "SUCCESS",
+      "details": "Evidence EVD-2026-0001 SHA-256 integrity VERIFIED (8de9c0f89d96f062...)",
+      "prevHash": "7552b334dcc706695afd4a49c697fb321f8b58a27a799829d818d23152e1e5e0",
+      "hash": "2a4fe50eb814f5188ba4ebbf5b6e2e067ba75d463182b1fa68c733b343d1c0fd"
+    },
+    {
+      "id": "LOG-052",
+      "timestamp": "2026-09-24T18:14:29.130Z",
+      "user": "System Auditor",
+      "caseId": "CASE-2026-0001",
+      "evidenceId": "EVD-2026-0001",
+      "action": "VERIFICATION_COMPLETED",
+      "result": "SUCCESS",
+      "details": "Evidence EVD-2026-0001 SHA-256 integrity VERIFIED (8de9c0f89d96f062...)",
+      "prevHash": "2a4fe50eb814f5188ba4ebbf5b6e2e067ba75d463182b1fa68c733b343d1c0fd",
+      "hash": "55d24211af5c6b4f6d72652087aba39dfb9fde19e3f2e17e15a853aff4b55993"
+    },
+    {
+      "id": "LOG-053",
+      "timestamp": "2026-09-24T18:14:29.131Z",
+      "user": "System Auditor",
+      "caseId": "CASE-TEST-001",
+      "evidenceId": "EVD-2026-0002",
+      "action": "VERIFICATION_COMPLETED",
+      "result": "SUCCESS",
+      "details": "Evidence EVD-2026-0002 SHA-256 integrity VERIFIED (8de9c0f89d96f062...)",
+      "prevHash": "55d24211af5c6b4f6d72652087aba39dfb9fde19e3f2e17e15a853aff4b55993",
+      "hash": "5ecdc815b18dad69b2800dd14c72c05950940c6d0400129b4dcf403d2857819c"
+    },
+    {
+      "id": "LOG-054",
+      "timestamp": "2026-09-24T18:14:29.132Z",
+      "user": "System Auditor",
+      "caseId": "CASE-TEST-001",
+      "evidenceId": "EVD-2026-0003",
+      "action": "VERIFICATION_COMPLETED",
+      "result": "SUCCESS",
+      "details": "Evidence EVD-2026-0003 SHA-256 integrity VERIFIED (8de9c0f89d96f062...)",
+      "prevHash": "5ecdc815b18dad69b2800dd14c72c05950940c6d0400129b4dcf403d2857819c",
+      "hash": "ab2edcc5b7188e50c5d2f2d272bd65ab65eaf2f215cd0e21a144b0df8382b520"
+    },
+    {
+      "id": "LOG-055",
+      "timestamp": "2026-09-24T18:14:29.134Z",
+      "user": "System Auditor",
+      "caseId": "CASE-TEST-001",
+      "evidenceId": "EVD-2026-0004",
+      "action": "VERIFICATION_COMPLETED",
+      "result": "SUCCESS",
+      "details": "Evidence EVD-2026-0004 SHA-256 integrity VERIFIED (8de9c0f89d96f062...)",
+      "prevHash": "ab2edcc5b7188e50c5d2f2d272bd65ab65eaf2f215cd0e21a144b0df8382b520",
+      "hash": "1dc9c2bbe4cd7c4b18b07d38d2d8d2a39cc2e7631b4c15da61f71778c4b29510"
+    },
+    {
+      "id": "LOG-056",
+      "timestamp": "2026-09-24T18:14:29.285Z",
+      "user": "System Auditor",
+      "caseId": "CASE-2026-0001",
+      "evidenceId": "EVD-2026-0001",
+      "action": "VERIFICATION_COMPLETED",
+      "result": "SUCCESS",
+      "details": "Evidence EVD-2026-0001 SHA-256 integrity VERIFIED (8de9c0f89d96f062...)",
+      "prevHash": "1dc9c2bbe4cd7c4b18b07d38d2d8d2a39cc2e7631b4c15da61f71778c4b29510",
+      "hash": "9fcd4655462b32795effbf722768760928e2e5a4c825fda276736ea827ef842f"
+    },
+    {
+      "id": "LOG-057",
+      "timestamp": "2026-09-24T18:14:29.287Z",
+      "user": "System Auditor",
+      "caseId": "CASE-TEST-001",
+      "evidenceId": "EVD-2026-0002",
+      "action": "VERIFICATION_COMPLETED",
+      "result": "SUCCESS",
+      "details": "Evidence EVD-2026-0002 SHA-256 integrity VERIFIED (8de9c0f89d96f062...)",
+      "prevHash": "9fcd4655462b32795effbf722768760928e2e5a4c825fda276736ea827ef842f",
+      "hash": "23a993a0fe255abcfff2c1b4f39fcb384e62626bb3c35aec8e07afde5d61371b"
+    },
+    {
+      "id": "LOG-058",
+      "timestamp": "2026-09-24T18:14:29.288Z",
+      "user": "System Auditor",
+      "caseId": "CASE-TEST-001",
+      "evidenceId": "EVD-2026-0003",
+      "action": "VERIFICATION_COMPLETED",
+      "result": "SUCCESS",
+      "details": "Evidence EVD-2026-0003 SHA-256 integrity VERIFIED (8de9c0f89d96f062...)",
+      "prevHash": "23a993a0fe255abcfff2c1b4f39fcb384e62626bb3c35aec8e07afde5d61371b",
+      "hash": "51d8b2764d47b4682d6d575469b52819cd39039a0e9be1fb1d9a77eefeeeb795"
+    },
+    {
+      "id": "LOG-059",
+      "timestamp": "2026-09-24T18:14:29.289Z",
+      "user": "System Auditor",
+      "caseId": "CASE-TEST-001",
+      "evidenceId": "EVD-2026-0004",
+      "action": "VERIFICATION_COMPLETED",
+      "result": "SUCCESS",
+      "details": "Evidence EVD-2026-0004 SHA-256 integrity VERIFIED (8de9c0f89d96f062...)",
+      "prevHash": "51d8b2764d47b4682d6d575469b52819cd39039a0e9be1fb1d9a77eefeeeb795",
+      "hash": "bdb8879311d087d540299d226ee6d0a5ef80ceaf91dcfccbf4d00b392056bab0"
+    },
+    {
+      "id": "LOG-060",
+      "timestamp": "2026-09-24T18:17:04.892Z",
+      "user": "Sgt. Vikram Singh",
+      "caseId": "CASE-2026-0005",
+      "evidenceId": "N/A",
+      "action": "CASE_CREATED",
+      "result": "SUCCESS",
+      "details": "Case CASE-2026-0005 (financila documnt) created under category Forensic Investigation.",
+      "prevHash": "bdb8879311d087d540299d226ee6d0a5ef80ceaf91dcfccbf4d00b392056bab0",
+      "hash": "64a5a359f629a15e894cad0924eb3a56f4a62c51d0676522df85ecc14c897bdc"
+    },
+    {
+      "id": "LOG-061",
+      "timestamp": "2026-09-24T18:17:05.062Z",
+      "user": "System Auditor",
+      "caseId": "CASE-2026-0001",
+      "evidenceId": "EVD-2026-0001",
+      "action": "VERIFICATION_COMPLETED",
+      "result": "SUCCESS",
+      "details": "Evidence EVD-2026-0001 SHA-256 integrity VERIFIED (8de9c0f89d96f062...)",
+      "prevHash": "64a5a359f629a15e894cad0924eb3a56f4a62c51d0676522df85ecc14c897bdc",
+      "hash": "1619cc426c692b2d1fdfa55621e38c85305efd4c65c490745e9936f637924fe4"
+    },
+    {
+      "id": "LOG-062",
+      "timestamp": "2026-09-24T18:17:05.063Z",
+      "user": "System Auditor",
+      "caseId": "CASE-TEST-001",
+      "evidenceId": "EVD-2026-0002",
+      "action": "VERIFICATION_COMPLETED",
+      "result": "SUCCESS",
+      "details": "Evidence EVD-2026-0002 SHA-256 integrity VERIFIED (8de9c0f89d96f062...)",
+      "prevHash": "1619cc426c692b2d1fdfa55621e38c85305efd4c65c490745e9936f637924fe4",
+      "hash": "15f2664a9c93d22783f6d40d4963b81adb14e8f16e79ab335e29586c17d598d3"
+    },
+    {
+      "id": "LOG-063",
+      "timestamp": "2026-09-24T18:17:05.064Z",
+      "user": "System Auditor",
+      "caseId": "CASE-TEST-001",
+      "evidenceId": "EVD-2026-0003",
+      "action": "VERIFICATION_COMPLETED",
+      "result": "SUCCESS",
+      "details": "Evidence EVD-2026-0003 SHA-256 integrity VERIFIED (8de9c0f89d96f062...)",
+      "prevHash": "15f2664a9c93d22783f6d40d4963b81adb14e8f16e79ab335e29586c17d598d3",
+      "hash": "16a49c4cdf22a0026214f74030f53b4a815ee5f578a46b3136868babbd709b48"
+    },
+    {
+      "id": "LOG-064",
+      "timestamp": "2026-09-24T18:17:05.065Z",
+      "user": "System Auditor",
+      "caseId": "CASE-TEST-001",
+      "evidenceId": "EVD-2026-0004",
+      "action": "VERIFICATION_COMPLETED",
+      "result": "SUCCESS",
+      "details": "Evidence EVD-2026-0004 SHA-256 integrity VERIFIED (8de9c0f89d96f062...)",
+      "prevHash": "16a49c4cdf22a0026214f74030f53b4a815ee5f578a46b3136868babbd709b48",
+      "hash": "4aab47446a6506151b3c011f812c1812ea0389764c33bbfd2e6f69bc1d7b7c9f"
+    },
+    {
+      "id": "LOG-065",
+      "timestamp": "2026-09-24T18:17:05.202Z",
+      "user": "System Auditor",
+      "caseId": "CASE-2026-0001",
+      "evidenceId": "EVD-2026-0001",
+      "action": "VERIFICATION_COMPLETED",
+      "result": "SUCCESS",
+      "details": "Evidence EVD-2026-0001 SHA-256 integrity VERIFIED (8de9c0f89d96f062...)",
+      "prevHash": "4aab47446a6506151b3c011f812c1812ea0389764c33bbfd2e6f69bc1d7b7c9f",
+      "hash": "5a02c208db25cf5988ccd210fff789fd3e13f2794f9e1ca2673625ae8bfdb84e"
+    },
+    {
+      "id": "LOG-066",
+      "timestamp": "2026-09-24T18:17:05.203Z",
+      "user": "System Auditor",
+      "caseId": "CASE-TEST-001",
+      "evidenceId": "EVD-2026-0002",
+      "action": "VERIFICATION_COMPLETED",
+      "result": "SUCCESS",
+      "details": "Evidence EVD-2026-0002 SHA-256 integrity VERIFIED (8de9c0f89d96f062...)",
+      "prevHash": "5a02c208db25cf5988ccd210fff789fd3e13f2794f9e1ca2673625ae8bfdb84e",
+      "hash": "d7c90a17d1bfb5dfe5381a730064eb35e6ef4d8e23fa265491a199a5a2770927"
+    },
+    {
+      "id": "LOG-067",
+      "timestamp": "2026-09-24T18:17:05.204Z",
+      "user": "System Auditor",
+      "caseId": "CASE-TEST-001",
+      "evidenceId": "EVD-2026-0003",
+      "action": "VERIFICATION_COMPLETED",
+      "result": "SUCCESS",
+      "details": "Evidence EVD-2026-0003 SHA-256 integrity VERIFIED (8de9c0f89d96f062...)",
+      "prevHash": "d7c90a17d1bfb5dfe5381a730064eb35e6ef4d8e23fa265491a199a5a2770927",
+      "hash": "7080c76f85433ed5a6007cea022a4f16bfe2f42a85bd36153c7b634b7e6faf5d"
+    },
+    {
+      "id": "LOG-068",
+      "timestamp": "2026-09-24T18:17:05.205Z",
+      "user": "System Auditor",
+      "caseId": "CASE-TEST-001",
+      "evidenceId": "EVD-2026-0004",
+      "action": "VERIFICATION_COMPLETED",
+      "result": "SUCCESS",
+      "details": "Evidence EVD-2026-0004 SHA-256 integrity VERIFIED (8de9c0f89d96f062...)",
+      "prevHash": "7080c76f85433ed5a6007cea022a4f16bfe2f42a85bd36153c7b634b7e6faf5d",
+      "hash": "e7e3db6c58286ce866316e943282d3a72bbb347dc8ab561a7b743d8094d94cd2"
+    },
+    {
+      "id": "LOG-069",
+      "timestamp": "2026-09-24T18:17:06.748Z",
+      "user": "System Auditor",
+      "caseId": "CASE-2026-0001",
+      "evidenceId": "EVD-2026-0001",
+      "action": "VERIFICATION_COMPLETED",
+      "result": "SUCCESS",
+      "details": "Evidence EVD-2026-0001 SHA-256 integrity VERIFIED (8de9c0f89d96f062...)",
+      "prevHash": "e7e3db6c58286ce866316e943282d3a72bbb347dc8ab561a7b743d8094d94cd2",
+      "hash": "af21d528b8d951ff2feab9b11c84eb9a569dbbd4db4e89925c0a488d5ab597e9"
+    },
+    {
+      "id": "LOG-070",
+      "timestamp": "2026-09-24T18:17:06.749Z",
+      "user": "System Auditor",
+      "caseId": "CASE-TEST-001",
+      "evidenceId": "EVD-2026-0002",
+      "action": "VERIFICATION_COMPLETED",
+      "result": "SUCCESS",
+      "details": "Evidence EVD-2026-0002 SHA-256 integrity VERIFIED (8de9c0f89d96f062...)",
+      "prevHash": "af21d528b8d951ff2feab9b11c84eb9a569dbbd4db4e89925c0a488d5ab597e9",
+      "hash": "a51dc6c53a3d06bf71b4b7181421e9bb0042320697128afbc0b9b3ee280db6be"
+    },
+    {
+      "id": "LOG-071",
+      "timestamp": "2026-09-24T18:17:06.751Z",
+      "user": "System Auditor",
+      "caseId": "CASE-TEST-001",
+      "evidenceId": "EVD-2026-0003",
+      "action": "VERIFICATION_COMPLETED",
+      "result": "SUCCESS",
+      "details": "Evidence EVD-2026-0003 SHA-256 integrity VERIFIED (8de9c0f89d96f062...)",
+      "prevHash": "a51dc6c53a3d06bf71b4b7181421e9bb0042320697128afbc0b9b3ee280db6be",
+      "hash": "0c586f704b6545c51b572ec08239dbfcc5bc9ba9549127a3164215ef2ebfa182"
+    },
+    {
+      "id": "LOG-072",
+      "timestamp": "2026-09-24T18:17:06.752Z",
+      "user": "System Auditor",
+      "caseId": "CASE-TEST-001",
+      "evidenceId": "EVD-2026-0004",
+      "action": "VERIFICATION_COMPLETED",
+      "result": "SUCCESS",
+      "details": "Evidence EVD-2026-0004 SHA-256 integrity VERIFIED (8de9c0f89d96f062...)",
+      "prevHash": "0c586f704b6545c51b572ec08239dbfcc5bc9ba9549127a3164215ef2ebfa182",
+      "hash": "f12f69097fef9c17b9002dd1b4e8a0201da3281dbf9c8cf6bb6bcf16b5499c08"
+    },
+    {
+      "id": "LOG-073",
+      "timestamp": "2026-09-24T18:17:13.044Z",
+      "user": "Investigator",
+      "caseId": "CASE-2026-0001",
+      "evidenceId": "EVD-2026-0005",
+      "action": "EVIDENCE_ADDED",
+      "result": "SUCCESS",
+      "details": "Evidence 'sample_drive.img' registered with SHA-256 8de9c0f89d96f062...",
+      "prevHash": "f12f69097fef9c17b9002dd1b4e8a0201da3281dbf9c8cf6bb6bcf16b5499c08",
+      "hash": "b7ab4276946e40676a5e24f23e5f6f390c66bfaa85ec74e13562915c0c313cb7"
+    },
+    {
+      "id": "LOG-074",
+      "timestamp": "2026-09-24T18:17:13.233Z",
+      "user": "System Auditor",
+      "caseId": "CASE-2026-0001",
+      "evidenceId": "EVD-2026-0001",
+      "action": "VERIFICATION_COMPLETED",
+      "result": "SUCCESS",
+      "details": "Evidence EVD-2026-0001 SHA-256 integrity VERIFIED (8de9c0f89d96f062...)",
+      "prevHash": "b7ab4276946e40676a5e24f23e5f6f390c66bfaa85ec74e13562915c0c313cb7",
+      "hash": "a6a4a588ae0fab236317034a06cbfe2a3072a651165ff29f5b029d57970257f2"
+    },
+    {
+      "id": "LOG-075",
+      "timestamp": "2026-09-24T18:17:13.235Z",
+      "user": "System Auditor",
+      "caseId": "CASE-TEST-001",
+      "evidenceId": "EVD-2026-0002",
+      "action": "VERIFICATION_COMPLETED",
+      "result": "SUCCESS",
+      "details": "Evidence EVD-2026-0002 SHA-256 integrity VERIFIED (8de9c0f89d96f062...)",
+      "prevHash": "a6a4a588ae0fab236317034a06cbfe2a3072a651165ff29f5b029d57970257f2",
+      "hash": "ebea8c40bdffcd11426459fabe39eccbb891bc44bbf9dfc35b842b83a09a9e8e"
+    },
+    {
+      "id": "LOG-076",
+      "timestamp": "2026-09-24T18:17:13.236Z",
+      "user": "System Auditor",
+      "caseId": "CASE-TEST-001",
+      "evidenceId": "EVD-2026-0003",
+      "action": "VERIFICATION_COMPLETED",
+      "result": "SUCCESS",
+      "details": "Evidence EVD-2026-0003 SHA-256 integrity VERIFIED (8de9c0f89d96f062...)",
+      "prevHash": "ebea8c40bdffcd11426459fabe39eccbb891bc44bbf9dfc35b842b83a09a9e8e",
+      "hash": "da9fb29d19b907c30de028e0bd1508670df3f10c2937610486eef230470302c7"
+    },
+    {
+      "id": "LOG-077",
+      "timestamp": "2026-09-24T18:17:13.237Z",
+      "user": "System Auditor",
+      "caseId": "CASE-TEST-001",
+      "evidenceId": "EVD-2026-0004",
+      "action": "VERIFICATION_COMPLETED",
+      "result": "SUCCESS",
+      "details": "Evidence EVD-2026-0004 SHA-256 integrity VERIFIED (8de9c0f89d96f062...)",
+      "prevHash": "da9fb29d19b907c30de028e0bd1508670df3f10c2937610486eef230470302c7",
+      "hash": "6172877cf7968efd875a2e7a7a081b53eae2c9f368829ef5af73cd8a098b4718"
+    },
+    {
+      "id": "LOG-078",
+      "timestamp": "2026-09-24T18:17:13.238Z",
+      "user": "System Auditor",
+      "caseId": "CASE-2026-0001",
+      "evidenceId": "EVD-2026-0005",
+      "action": "VERIFICATION_COMPLETED",
+      "result": "SUCCESS",
+      "details": "Evidence EVD-2026-0005 SHA-256 integrity VERIFIED (8de9c0f89d96f062...)",
+      "prevHash": "6172877cf7968efd875a2e7a7a081b53eae2c9f368829ef5af73cd8a098b4718",
+      "hash": "bd102a781c8d70a07c47bbfce06a64cf72d641949b7876a347b78d46b82376f0"
+    },
+    {
+      "id": "LOG-079",
+      "timestamp": "2026-09-24T18:17:17.699Z",
+      "user": "Investigator",
+      "caseId": "CASE-2026-0001",
+      "evidenceId": "EVD-2026-0001",
+      "action": "VERIFICATION_COMPLETED",
+      "result": "SUCCESS",
+      "details": "Evidence EVD-2026-0001 SHA-256 integrity VERIFIED (8de9c0f89d96f062...)",
+      "prevHash": "bd102a781c8d70a07c47bbfce06a64cf72d641949b7876a347b78d46b82376f0",
+      "hash": "a075d16e48f173f36cb231bf55ab551f314a6692b58cf466a15e692d3def8878"
+    },
+    {
+      "id": "LOG-080",
+      "timestamp": "2026-09-24T18:17:17.891Z",
+      "user": "System Auditor",
+      "caseId": "CASE-2026-0001",
+      "evidenceId": "EVD-2026-0001",
+      "action": "VERIFICATION_COMPLETED",
+      "result": "SUCCESS",
+      "details": "Evidence EVD-2026-0001 SHA-256 integrity VERIFIED (8de9c0f89d96f062...)",
+      "prevHash": "a075d16e48f173f36cb231bf55ab551f314a6692b58cf466a15e692d3def8878",
+      "hash": "b5b79ebb94adfbcaf01ef46a74b72fd57b1c217ad3de2ff3a2181d27d71b7e1b"
+    },
+    {
+      "id": "LOG-081",
+      "timestamp": "2026-09-24T18:17:17.892Z",
+      "user": "System Auditor",
+      "caseId": "CASE-TEST-001",
+      "evidenceId": "EVD-2026-0002",
+      "action": "VERIFICATION_COMPLETED",
+      "result": "SUCCESS",
+      "details": "Evidence EVD-2026-0002 SHA-256 integrity VERIFIED (8de9c0f89d96f062...)",
+      "prevHash": "b5b79ebb94adfbcaf01ef46a74b72fd57b1c217ad3de2ff3a2181d27d71b7e1b",
+      "hash": "635bb9cb420656b9bfcfcb089f37caf6aaa61f049d7472dadf71fcca849c8146"
+    },
+    {
+      "id": "LOG-082",
+      "timestamp": "2026-09-24T18:17:17.893Z",
+      "user": "System Auditor",
+      "caseId": "CASE-TEST-001",
+      "evidenceId": "EVD-2026-0003",
+      "action": "VERIFICATION_COMPLETED",
+      "result": "SUCCESS",
+      "details": "Evidence EVD-2026-0003 SHA-256 integrity VERIFIED (8de9c0f89d96f062...)",
+      "prevHash": "635bb9cb420656b9bfcfcb089f37caf6aaa61f049d7472dadf71fcca849c8146",
+      "hash": "f31a629cfef1c6e76864f263f7a6793cfcb3f89a79d285d11c5b47608326719d"
+    },
+    {
+      "id": "LOG-083",
+      "timestamp": "2026-09-24T18:17:17.895Z",
+      "user": "System Auditor",
+      "caseId": "CASE-TEST-001",
+      "evidenceId": "EVD-2026-0004",
+      "action": "VERIFICATION_COMPLETED",
+      "result": "SUCCESS",
+      "details": "Evidence EVD-2026-0004 SHA-256 integrity VERIFIED (8de9c0f89d96f062...)",
+      "prevHash": "f31a629cfef1c6e76864f263f7a6793cfcb3f89a79d285d11c5b47608326719d",
+      "hash": "b422e0bf8a7a85972cbc001b30a310fdadf4815842571d579235ab59b447b06a"
+    },
+    {
+      "id": "LOG-084",
+      "timestamp": "2026-09-24T18:17:17.896Z",
+      "user": "System Auditor",
+      "caseId": "CASE-2026-0001",
+      "evidenceId": "EVD-2026-0005",
+      "action": "VERIFICATION_COMPLETED",
+      "result": "SUCCESS",
+      "details": "Evidence EVD-2026-0005 SHA-256 integrity VERIFIED (8de9c0f89d96f062...)",
+      "prevHash": "b422e0bf8a7a85972cbc001b30a310fdadf4815842571d579235ab59b447b06a",
+      "hash": "0d2933680adf4fbfc44b58d4c71da847b4a08a341fbcdbad0b8be63251b03dd1"
+    },
+    {
+      "id": "LOG-085",
+      "timestamp": "2026-09-24T18:17:55.943Z",
+      "user": "Investigator",
+      "caseId": "CASE-2026-0001",
+      "evidenceId": "DEV-001",
+      "action": "ERASURE_STARTED",
+      "result": "SUCCESS",
+      "details": "Sanitization started for Seagate Barracuda ST1000LM048 (HDD) using DoD 5220.22-M (3 Passes). [SAFE DEMO MODE: ENABLED]",
+      "prevHash": "0d2933680adf4fbfc44b58d4c71da847b4a08a341fbcdbad0b8be63251b03dd1",
+      "hash": "1825769a24487411f04d6a53c320dddea1ffc139a6909e409efb4e009b9aecb1"
+    },
+    {
+      "id": "LOG-086",
+      "timestamp": "2026-09-24T18:17:55.946Z",
+      "user": "Investigator",
+      "caseId": "CASE-2026-0001",
+      "evidenceId": "DEV-001",
+      "action": "ERASURE_COMPLETED",
+      "result": "SUCCESS",
+      "details": "Sanitization completed for Seagate Barracuda ST1000LM048. Certificate CERT-SAN-1790273875943 issued.",
+      "prevHash": "1825769a24487411f04d6a53c320dddea1ffc139a6909e409efb4e009b9aecb1",
+      "hash": "3217e56091f2d01ab657f72a3d2b36ad0fc2cc06c29223b8c7d666d3218e3edd"
+    },
+    {
+      "id": "LOG-087",
+      "timestamp": "2026-09-24T18:17:56.141Z",
+      "user": "System Auditor",
+      "caseId": "CASE-2026-0001",
+      "evidenceId": "EVD-2026-0001",
+      "action": "VERIFICATION_COMPLETED",
+      "result": "SUCCESS",
+      "details": "Evidence EVD-2026-0001 SHA-256 integrity VERIFIED (8de9c0f89d96f062...)",
+      "prevHash": "3217e56091f2d01ab657f72a3d2b36ad0fc2cc06c29223b8c7d666d3218e3edd",
+      "hash": "c4d4a2aa593660ed1e734428a1504a5d2178d9477fd61e1bce7977cfa972be97"
+    },
+    {
+      "id": "LOG-088",
+      "timestamp": "2026-09-24T18:17:56.142Z",
+      "user": "System Auditor",
+      "caseId": "CASE-TEST-001",
+      "evidenceId": "EVD-2026-0002",
+      "action": "VERIFICATION_COMPLETED",
+      "result": "SUCCESS",
+      "details": "Evidence EVD-2026-0002 SHA-256 integrity VERIFIED (8de9c0f89d96f062...)",
+      "prevHash": "c4d4a2aa593660ed1e734428a1504a5d2178d9477fd61e1bce7977cfa972be97",
+      "hash": "1646900a44f322054e1b260a778da1807116f65e33eb35c39d3e2c6907cf29e8"
+    },
+    {
+      "id": "LOG-089",
+      "timestamp": "2026-09-24T18:17:56.144Z",
+      "user": "System Auditor",
+      "caseId": "CASE-TEST-001",
+      "evidenceId": "EVD-2026-0003",
+      "action": "VERIFICATION_COMPLETED",
+      "result": "SUCCESS",
+      "details": "Evidence EVD-2026-0003 SHA-256 integrity VERIFIED (8de9c0f89d96f062...)",
+      "prevHash": "1646900a44f322054e1b260a778da1807116f65e33eb35c39d3e2c6907cf29e8",
+      "hash": "ee019c15dc52a22c66ef7d83881eea18572f7ae562fb3c60e2e37a250a19e186"
+    },
+    {
+      "id": "LOG-090",
+      "timestamp": "2026-09-24T18:17:56.145Z",
+      "user": "System Auditor",
+      "caseId": "CASE-TEST-001",
+      "evidenceId": "EVD-2026-0004",
+      "action": "VERIFICATION_COMPLETED",
+      "result": "SUCCESS",
+      "details": "Evidence EVD-2026-0004 SHA-256 integrity VERIFIED (8de9c0f89d96f062...)",
+      "prevHash": "ee019c15dc52a22c66ef7d83881eea18572f7ae562fb3c60e2e37a250a19e186",
+      "hash": "06f463f2a716e4bf1b11f243401d714a5317d2b5b2292b110b8d8062b9581443"
+    },
+    {
+      "id": "LOG-091",
+      "timestamp": "2026-09-24T18:17:56.146Z",
+      "user": "System Auditor",
+      "caseId": "CASE-2026-0001",
+      "evidenceId": "EVD-2026-0005",
+      "action": "VERIFICATION_COMPLETED",
+      "result": "SUCCESS",
+      "details": "Evidence EVD-2026-0005 SHA-256 integrity VERIFIED (8de9c0f89d96f062...)",
+      "prevHash": "06f463f2a716e4bf1b11f243401d714a5317d2b5b2292b110b8d8062b9581443",
+      "hash": "4d25a4243271dfca8a8ea2836e97a9e9847a9f5ab2be314f0b2beb2aea2675e2"
+    },
+    {
+      "id": "LOG-092",
+      "timestamp": "2026-09-24T18:39:40.611Z",
+      "user": "System Auditor",
+      "caseId": "CASE-2026-0001",
+      "evidenceId": "EVD-2026-0001",
+      "action": "VERIFICATION_COMPLETED",
+      "result": "SUCCESS",
+      "details": "Evidence EVD-2026-0001 SHA-256 integrity VERIFIED (8de9c0f89d96f062...)",
+      "prevHash": "4d25a4243271dfca8a8ea2836e97a9e9847a9f5ab2be314f0b2beb2aea2675e2",
+      "hash": "b2a52fb35ed54f2e8b024f10b4b5280cddd03d7e8ff0e7dc100f0ea9bf20277d"
+    },
+    {
+      "id": "LOG-093",
+      "timestamp": "2026-09-24T18:39:40.612Z",
+      "user": "System Auditor",
+      "caseId": "CASE-TEST-001",
+      "evidenceId": "EVD-2026-0002",
+      "action": "VERIFICATION_COMPLETED",
+      "result": "SUCCESS",
+      "details": "Evidence EVD-2026-0002 SHA-256 integrity VERIFIED (8de9c0f89d96f062...)",
+      "prevHash": "b2a52fb35ed54f2e8b024f10b4b5280cddd03d7e8ff0e7dc100f0ea9bf20277d",
+      "hash": "446ef612b82c89329078b82ec38729f9e5926af1a9cc32f1ec8898a1eb5696fd"
+    },
+    {
+      "id": "LOG-094",
+      "timestamp": "2026-09-24T18:39:40.614Z",
+      "user": "System Auditor",
+      "caseId": "CASE-TEST-001",
+      "evidenceId": "EVD-2026-0003",
+      "action": "VERIFICATION_COMPLETED",
+      "result": "SUCCESS",
+      "details": "Evidence EVD-2026-0003 SHA-256 integrity VERIFIED (8de9c0f89d96f062...)",
+      "prevHash": "446ef612b82c89329078b82ec38729f9e5926af1a9cc32f1ec8898a1eb5696fd",
+      "hash": "d14d66083bad7bf769f863f8a51d3f8364dcd52dc47426dc60e78fe5950ffc74"
+    },
+    {
+      "id": "LOG-095",
+      "timestamp": "2026-09-24T18:39:40.615Z",
+      "user": "System Auditor",
+      "caseId": "CASE-TEST-001",
+      "evidenceId": "EVD-2026-0004",
+      "action": "VERIFICATION_COMPLETED",
+      "result": "SUCCESS",
+      "details": "Evidence EVD-2026-0004 SHA-256 integrity VERIFIED (8de9c0f89d96f062...)",
+      "prevHash": "d14d66083bad7bf769f863f8a51d3f8364dcd52dc47426dc60e78fe5950ffc74",
+      "hash": "7fac7613c39ee692cf8e3dc150b2d2626dbb6501b5450dc4f301336255b8b69a"
+    },
+    {
+      "id": "LOG-096",
+      "timestamp": "2026-09-24T18:39:40.616Z",
+      "user": "System Auditor",
+      "caseId": "CASE-2026-0001",
+      "evidenceId": "EVD-2026-0005",
+      "action": "VERIFICATION_COMPLETED",
+      "result": "SUCCESS",
+      "details": "Evidence EVD-2026-0005 SHA-256 integrity VERIFIED (8de9c0f89d96f062...)",
+      "prevHash": "7fac7613c39ee692cf8e3dc150b2d2626dbb6501b5450dc4f301336255b8b69a",
+      "hash": "26ddc5a2a9f87427df7871498c4487043557bd261217126058609aa6870b4988"
+    },
+    {
+      "id": "LOG-097",
+      "timestamp": "2026-09-24T18:39:40.770Z",
+      "user": "System Auditor",
+      "caseId": "CASE-2026-0001",
+      "evidenceId": "EVD-2026-0001",
+      "action": "VERIFICATION_COMPLETED",
+      "result": "SUCCESS",
+      "details": "Evidence EVD-2026-0001 SHA-256 integrity VERIFIED (8de9c0f89d96f062...)",
+      "prevHash": "26ddc5a2a9f87427df7871498c4487043557bd261217126058609aa6870b4988",
+      "hash": "240b891ae1da7abc25d4f73a6b3b90666839502544d14198f6fa39f9f33caddb"
+    },
+    {
+      "id": "LOG-098",
+      "timestamp": "2026-09-24T18:39:40.772Z",
+      "user": "System Auditor",
+      "caseId": "CASE-TEST-001",
+      "evidenceId": "EVD-2026-0002",
+      "action": "VERIFICATION_COMPLETED",
+      "result": "SUCCESS",
+      "details": "Evidence EVD-2026-0002 SHA-256 integrity VERIFIED (8de9c0f89d96f062...)",
+      "prevHash": "240b891ae1da7abc25d4f73a6b3b90666839502544d14198f6fa39f9f33caddb",
+      "hash": "2c865527fee5d28d83be79a07fe6aa9d7d757bb7ad53d624821be6b55f7a5d6f"
+    },
+    {
+      "id": "LOG-099",
+      "timestamp": "2026-09-24T18:39:40.773Z",
+      "user": "System Auditor",
+      "caseId": "CASE-TEST-001",
+      "evidenceId": "EVD-2026-0003",
+      "action": "VERIFICATION_COMPLETED",
+      "result": "SUCCESS",
+      "details": "Evidence EVD-2026-0003 SHA-256 integrity VERIFIED (8de9c0f89d96f062...)",
+      "prevHash": "2c865527fee5d28d83be79a07fe6aa9d7d757bb7ad53d624821be6b55f7a5d6f",
+      "hash": "27dbd15e9d3dbd0564d4ed5922e6de46c9a452e60dbc3f62cf1203b0e9b00567"
+    },
+    {
+      "id": "LOG-100",
+      "timestamp": "2026-09-24T18:39:40.775Z",
+      "user": "System Auditor",
+      "caseId": "CASE-TEST-001",
+      "evidenceId": "EVD-2026-0004",
+      "action": "VERIFICATION_COMPLETED",
+      "result": "SUCCESS",
+      "details": "Evidence EVD-2026-0004 SHA-256 integrity VERIFIED (8de9c0f89d96f062...)",
+      "prevHash": "27dbd15e9d3dbd0564d4ed5922e6de46c9a452e60dbc3f62cf1203b0e9b00567",
+      "hash": "d3eaf680c27ac746c63161d7ff07f9514442de89dda194b36123e30ead0dbe0a"
+    },
+    {
+      "id": "LOG-101",
+      "timestamp": "2026-09-24T18:39:40.776Z",
+      "user": "System Auditor",
+      "caseId": "CASE-2026-0001",
+      "evidenceId": "EVD-2026-0005",
+      "action": "VERIFICATION_COMPLETED",
+      "result": "SUCCESS",
+      "details": "Evidence EVD-2026-0005 SHA-256 integrity VERIFIED (8de9c0f89d96f062...)",
+      "prevHash": "d3eaf680c27ac746c63161d7ff07f9514442de89dda194b36123e30ead0dbe0a",
+      "hash": "3a71334d0a7a1f3693a62cf86479cd67e2216bb59e92a807be787403662cd52d"
+    },
+    {
+      "id": "LOG-102",
+      "timestamp": "2026-09-24T18:39:51.834Z",
+      "user": "System Auditor",
+      "caseId": "CASE-2026-0001",
+      "evidenceId": "EVD-2026-0001",
+      "action": "VERIFICATION_COMPLETED",
+      "result": "SUCCESS",
+      "details": "Evidence EVD-2026-0001 SHA-256 integrity VERIFIED (8de9c0f89d96f062...)",
+      "prevHash": "3a71334d0a7a1f3693a62cf86479cd67e2216bb59e92a807be787403662cd52d",
+      "hash": "bace6afc86229905191f5691973127d3c6247b67e8beaeb5dd26667beac7234a"
+    },
+    {
+      "id": "LOG-103",
+      "timestamp": "2026-09-24T18:39:51.836Z",
+      "user": "System Auditor",
+      "caseId": "CASE-TEST-001",
+      "evidenceId": "EVD-2026-0002",
+      "action": "VERIFICATION_COMPLETED",
+      "result": "SUCCESS",
+      "details": "Evidence EVD-2026-0002 SHA-256 integrity VERIFIED (8de9c0f89d96f062...)",
+      "prevHash": "bace6afc86229905191f5691973127d3c6247b67e8beaeb5dd26667beac7234a",
+      "hash": "34dfb8b78577bcb493c8d155f9286c4b7cfaa71987aded98aaa6893f4c7d9231"
+    },
+    {
+      "id": "LOG-104",
+      "timestamp": "2026-09-24T18:39:51.838Z",
+      "user": "System Auditor",
+      "caseId": "CASE-TEST-001",
+      "evidenceId": "EVD-2026-0003",
+      "action": "VERIFICATION_COMPLETED",
+      "result": "SUCCESS",
+      "details": "Evidence EVD-2026-0003 SHA-256 integrity VERIFIED (8de9c0f89d96f062...)",
+      "prevHash": "34dfb8b78577bcb493c8d155f9286c4b7cfaa71987aded98aaa6893f4c7d9231",
+      "hash": "8099d2228b38c11a81592074cfd810c30f63bc5dcbc5f7f586ef474c30da64f8"
+    },
+    {
+      "id": "LOG-105",
+      "timestamp": "2026-09-24T18:39:51.840Z",
+      "user": "System Auditor",
+      "caseId": "CASE-TEST-001",
+      "evidenceId": "EVD-2026-0004",
+      "action": "VERIFICATION_COMPLETED",
+      "result": "SUCCESS",
+      "details": "Evidence EVD-2026-0004 SHA-256 integrity VERIFIED (8de9c0f89d96f062...)",
+      "prevHash": "8099d2228b38c11a81592074cfd810c30f63bc5dcbc5f7f586ef474c30da64f8",
+      "hash": "56881b2bc73c7e17c7af23ba7c7d5e0cf1a250498b9cbf13c43936aa7717f183"
+    },
+    {
+      "id": "LOG-106",
+      "timestamp": "2026-09-24T18:39:51.842Z",
+      "user": "System Auditor",
+      "caseId": "CASE-2026-0001",
+      "evidenceId": "EVD-2026-0005",
+      "action": "VERIFICATION_COMPLETED",
+      "result": "SUCCESS",
+      "details": "Evidence EVD-2026-0005 SHA-256 integrity VERIFIED (8de9c0f89d96f062...)",
+      "prevHash": "56881b2bc73c7e17c7af23ba7c7d5e0cf1a250498b9cbf13c43936aa7717f183",
+      "hash": "2d960387f702e8011a85711deff5ed70994108cef394c19505f8205e5242c836"
+    },
+    {
+      "id": "LOG-107",
+      "timestamp": "2026-09-24T18:39:51.988Z",
+      "user": "System Auditor",
+      "caseId": "CASE-2026-0001",
+      "evidenceId": "EVD-2026-0001",
+      "action": "VERIFICATION_COMPLETED",
+      "result": "SUCCESS",
+      "details": "Evidence EVD-2026-0001 SHA-256 integrity VERIFIED (8de9c0f89d96f062...)",
+      "prevHash": "2d960387f702e8011a85711deff5ed70994108cef394c19505f8205e5242c836",
+      "hash": "e59c067c556b1922ffdc2f1e0f73f709c9f07b4a4936040ed63b8b6e5e958b4a"
+    },
+    {
+      "id": "LOG-108",
+      "timestamp": "2026-09-24T18:39:51.989Z",
+      "user": "System Auditor",
+      "caseId": "CASE-TEST-001",
+      "evidenceId": "EVD-2026-0002",
+      "action": "VERIFICATION_COMPLETED",
+      "result": "SUCCESS",
+      "details": "Evidence EVD-2026-0002 SHA-256 integrity VERIFIED (8de9c0f89d96f062...)",
+      "prevHash": "e59c067c556b1922ffdc2f1e0f73f709c9f07b4a4936040ed63b8b6e5e958b4a",
+      "hash": "32b402d1f5a570ddc8ab91113a44b35a4440104ad78bf4f4434f5d9d938b5bdd"
+    },
+    {
+      "id": "LOG-109",
+      "timestamp": "2026-09-24T18:39:51.990Z",
+      "user": "System Auditor",
+      "caseId": "CASE-TEST-001",
+      "evidenceId": "EVD-2026-0003",
+      "action": "VERIFICATION_COMPLETED",
+      "result": "SUCCESS",
+      "details": "Evidence EVD-2026-0003 SHA-256 integrity VERIFIED (8de9c0f89d96f062...)",
+      "prevHash": "32b402d1f5a570ddc8ab91113a44b35a4440104ad78bf4f4434f5d9d938b5bdd",
+      "hash": "3cb155119b1a25ba8ca688dc56d33af937b508cad278eeb93822513243e4b858"
+    },
+    {
+      "id": "LOG-110",
+      "timestamp": "2026-09-24T18:39:51.991Z",
+      "user": "System Auditor",
+      "caseId": "CASE-TEST-001",
+      "evidenceId": "EVD-2026-0004",
+      "action": "VERIFICATION_COMPLETED",
+      "result": "SUCCESS",
+      "details": "Evidence EVD-2026-0004 SHA-256 integrity VERIFIED (8de9c0f89d96f062...)",
+      "prevHash": "3cb155119b1a25ba8ca688dc56d33af937b508cad278eeb93822513243e4b858",
+      "hash": "514893d6de242b97d283fba1a97ddf20f28666f281ca452003c2c586e0cfdc86"
+    },
+    {
+      "id": "LOG-111",
+      "timestamp": "2026-09-24T18:39:51.993Z",
+      "user": "System Auditor",
+      "caseId": "CASE-2026-0001",
+      "evidenceId": "EVD-2026-0005",
+      "action": "VERIFICATION_COMPLETED",
+      "result": "SUCCESS",
+      "details": "Evidence EVD-2026-0005 SHA-256 integrity VERIFIED (8de9c0f89d96f062...)",
+      "prevHash": "514893d6de242b97d283fba1a97ddf20f28666f281ca452003c2c586e0cfdc86",
+      "hash": "034a3975a1b0f5687f95dd6b113c9826e400029604111ee1c798cc5e293a5b68"
+    },
+    {
+      "id": "LOG-112",
+      "timestamp": "2026-09-24T18:43:54.303Z",
+      "user": "System Auditor",
+      "caseId": "CASE-2026-0001",
+      "evidenceId": "EVD-2026-0001",
+      "action": "VERIFICATION_COMPLETED",
+      "result": "SUCCESS",
+      "details": "Evidence EVD-2026-0001 SHA-256 integrity VERIFIED (8de9c0f89d96f062...)",
+      "prevHash": "034a3975a1b0f5687f95dd6b113c9826e400029604111ee1c798cc5e293a5b68",
+      "hash": "3df533782cb7c09a29ecb271a8d4935c74763e6d05c216f4162109c88eb404c1"
+    },
+    {
+      "id": "LOG-113",
+      "timestamp": "2026-09-24T18:43:54.305Z",
+      "user": "System Auditor",
+      "caseId": "CASE-TEST-001",
+      "evidenceId": "EVD-2026-0002",
+      "action": "VERIFICATION_COMPLETED",
+      "result": "SUCCESS",
+      "details": "Evidence EVD-2026-0002 SHA-256 integrity VERIFIED (8de9c0f89d96f062...)",
+      "prevHash": "3df533782cb7c09a29ecb271a8d4935c74763e6d05c216f4162109c88eb404c1",
+      "hash": "70ab496bfccda5451aa6d1e11b8d19320d9235f353ddb189dce6e119c3efa35e"
+    },
+    {
+      "id": "LOG-114",
+      "timestamp": "2026-09-24T18:43:54.306Z",
+      "user": "System Auditor",
+      "caseId": "CASE-TEST-001",
+      "evidenceId": "EVD-2026-0003",
+      "action": "VERIFICATION_COMPLETED",
+      "result": "SUCCESS",
+      "details": "Evidence EVD-2026-0003 SHA-256 integrity VERIFIED (8de9c0f89d96f062...)",
+      "prevHash": "70ab496bfccda5451aa6d1e11b8d19320d9235f353ddb189dce6e119c3efa35e",
+      "hash": "80dca337f4fe44741a523d2792a67f926fff3feb1322b26462f9e79c0a4d17bb"
+    },
+    {
+      "id": "LOG-115",
+      "timestamp": "2026-09-24T18:43:54.308Z",
+      "user": "System Auditor",
+      "caseId": "CASE-TEST-001",
+      "evidenceId": "EVD-2026-0004",
+      "action": "VERIFICATION_COMPLETED",
+      "result": "SUCCESS",
+      "details": "Evidence EVD-2026-0004 SHA-256 integrity VERIFIED (8de9c0f89d96f062...)",
+      "prevHash": "80dca337f4fe44741a523d2792a67f926fff3feb1322b26462f9e79c0a4d17bb",
+      "hash": "9f5bc84074edc9e6d38f2ce5328957aee60fcad2697d0e3df472c6b7524cbea1"
+    },
+    {
+      "id": "LOG-116",
+      "timestamp": "2026-09-24T18:43:54.309Z",
+      "user": "System Auditor",
+      "caseId": "CASE-2026-0001",
+      "evidenceId": "EVD-2026-0005",
+      "action": "VERIFICATION_COMPLETED",
+      "result": "SUCCESS",
+      "details": "Evidence EVD-2026-0005 SHA-256 integrity VERIFIED (8de9c0f89d96f062...)",
+      "prevHash": "9f5bc84074edc9e6d38f2ce5328957aee60fcad2697d0e3df472c6b7524cbea1",
+      "hash": "2120d9788d642d21d2d2564d7eeb3b979e7b558bad44407ddbac733acec27031"
+    },
+    {
+      "id": "LOG-117",
+      "timestamp": "2026-09-24T18:43:54.313Z",
+      "user": "System Auditor",
+      "caseId": "CASE-2026-0001",
+      "evidenceId": "EVD-2026-0001",
+      "action": "VERIFICATION_COMPLETED",
+      "result": "SUCCESS",
+      "details": "Evidence EVD-2026-0001 SHA-256 integrity VERIFIED (8de9c0f89d96f062...)",
+      "prevHash": "2120d9788d642d21d2d2564d7eeb3b979e7b558bad44407ddbac733acec27031",
+      "hash": "3fac4f6ed25d47bd79c5dbe0cbc52bcd059825138c841ec24312b48d04fe15fe"
+    },
+    {
+      "id": "LOG-118",
+      "timestamp": "2026-09-24T18:43:54.314Z",
+      "user": "System Auditor",
+      "caseId": "CASE-TEST-001",
+      "evidenceId": "EVD-2026-0002",
+      "action": "VERIFICATION_COMPLETED",
+      "result": "SUCCESS",
+      "details": "Evidence EVD-2026-0002 SHA-256 integrity VERIFIED (8de9c0f89d96f062...)",
+      "prevHash": "3fac4f6ed25d47bd79c5dbe0cbc52bcd059825138c841ec24312b48d04fe15fe",
+      "hash": "c0fa5574b549d72d2009c6cef54931e43df604c765e37f243f518dd30a944295"
+    },
+    {
+      "id": "LOG-119",
+      "timestamp": "2026-09-24T18:43:54.316Z",
+      "user": "System Auditor",
+      "caseId": "CASE-TEST-001",
+      "evidenceId": "EVD-2026-0003",
+      "action": "VERIFICATION_COMPLETED",
+      "result": "SUCCESS",
+      "details": "Evidence EVD-2026-0003 SHA-256 integrity VERIFIED (8de9c0f89d96f062...)",
+      "prevHash": "c0fa5574b549d72d2009c6cef54931e43df604c765e37f243f518dd30a944295",
+      "hash": "232638a37b60ba90bda92a553181fdddf0fce16a0d50fddb24ac6c4beb7ab1aa"
+    },
+    {
+      "id": "LOG-120",
+      "timestamp": "2026-09-24T18:43:54.317Z",
+      "user": "System Auditor",
+      "caseId": "CASE-TEST-001",
+      "evidenceId": "EVD-2026-0004",
+      "action": "VERIFICATION_COMPLETED",
+      "result": "SUCCESS",
+      "details": "Evidence EVD-2026-0004 SHA-256 integrity VERIFIED (8de9c0f89d96f062...)",
+      "prevHash": "232638a37b60ba90bda92a553181fdddf0fce16a0d50fddb24ac6c4beb7ab1aa",
+      "hash": "b0b9ba9108599d5b42189e24ac812f311e3863263927e9dcf8bd2167b99a5528"
+    },
+    {
+      "id": "LOG-121",
+      "timestamp": "2026-09-24T18:43:54.318Z",
+      "user": "System Auditor",
+      "caseId": "CASE-2026-0001",
+      "evidenceId": "EVD-2026-0005",
+      "action": "VERIFICATION_COMPLETED",
+      "result": "SUCCESS",
+      "details": "Evidence EVD-2026-0005 SHA-256 integrity VERIFIED (8de9c0f89d96f062...)",
+      "prevHash": "b0b9ba9108599d5b42189e24ac812f311e3863263927e9dcf8bd2167b99a5528",
+      "hash": "dd4ba6a17695b2e5cdd7236831a8002fb79f523d79aafce924627a31b8b44118"
+    },
+    {
+      "id": "LOG-122",
+      "timestamp": "2026-09-24T18:45:18.486Z",
+      "user": "Investigator",
+      "caseId": "CASE-2026-0001",
+      "evidenceId": "EVD-2026-0001",
+      "action": "FILE_RECOVERED",
+      "result": "SUCCESS",
+      "details": "Signature carving completed on sample_drive.img. 4 files extracted.",
+      "prevHash": "dd4ba6a17695b2e5cdd7236831a8002fb79f523d79aafce924627a31b8b44118",
+      "hash": "fc80b43ac74df83982b4a636bab2a65fe3a560795c56a4a025c5e5b6778132cd"
+    },
+    {
+      "id": "LOG-123",
+      "timestamp": "2026-09-24T18:45:18.500Z",
+      "user": "System Auditor",
+      "caseId": "CASE-2026-0001",
+      "evidenceId": "EVD-2026-0001",
+      "action": "VERIFICATION_COMPLETED",
+      "result": "SUCCESS",
+      "details": "Evidence EVD-2026-0001 SHA-256 integrity VERIFIED (8de9c0f89d96f062...)",
+      "prevHash": "fc80b43ac74df83982b4a636bab2a65fe3a560795c56a4a025c5e5b6778132cd",
+      "hash": "5ad5ea40c48f0e3379c6b8604217bbc04d3db345adbc9ccf15de91baab264278"
+    },
+    {
+      "id": "LOG-124",
+      "timestamp": "2026-09-24T18:45:18.503Z",
+      "user": "System Auditor",
+      "caseId": "CASE-TEST-001",
+      "evidenceId": "EVD-2026-0002",
+      "action": "VERIFICATION_COMPLETED",
+      "result": "SUCCESS",
+      "details": "Evidence EVD-2026-0002 SHA-256 integrity VERIFIED (8de9c0f89d96f062...)",
+      "prevHash": "5ad5ea40c48f0e3379c6b8604217bbc04d3db345adbc9ccf15de91baab264278",
+      "hash": "5adf1de865c7dee38bfdd60f4929dab1e072cad3f89a52c823ecb11ff8c1a2f7"
+    },
+    {
+      "id": "LOG-125",
+      "timestamp": "2026-09-24T18:45:18.504Z",
+      "user": "System Auditor",
+      "caseId": "CASE-TEST-001",
+      "evidenceId": "EVD-2026-0003",
+      "action": "VERIFICATION_COMPLETED",
+      "result": "SUCCESS",
+      "details": "Evidence EVD-2026-0003 SHA-256 integrity VERIFIED (8de9c0f89d96f062...)",
+      "prevHash": "5adf1de865c7dee38bfdd60f4929dab1e072cad3f89a52c823ecb11ff8c1a2f7",
+      "hash": "59c888569466364867f2d474636c284274c64efe525ad0bda0ee944c7a4940b0"
+    },
+    {
+      "id": "LOG-126",
+      "timestamp": "2026-09-24T18:45:18.506Z",
+      "user": "System Auditor",
+      "caseId": "CASE-TEST-001",
+      "evidenceId": "EVD-2026-0004",
+      "action": "VERIFICATION_COMPLETED",
+      "result": "SUCCESS",
+      "details": "Evidence EVD-2026-0004 SHA-256 integrity VERIFIED (8de9c0f89d96f062...)",
+      "prevHash": "59c888569466364867f2d474636c284274c64efe525ad0bda0ee944c7a4940b0",
+      "hash": "1686ce6685505427b1a0f356bc30f1a7d0ed16403fea84a7d938e1fca6682b23"
+    },
+    {
+      "id": "LOG-127",
+      "timestamp": "2026-09-24T18:45:18.507Z",
+      "user": "System Auditor",
+      "caseId": "CASE-2026-0001",
+      "evidenceId": "EVD-2026-0005",
+      "action": "VERIFICATION_COMPLETED",
+      "result": "SUCCESS",
+      "details": "Evidence EVD-2026-0005 SHA-256 integrity VERIFIED (8de9c0f89d96f062...)",
+      "prevHash": "1686ce6685505427b1a0f356bc30f1a7d0ed16403fea84a7d938e1fca6682b23",
+      "hash": "dfd8363994e10ef898c84f4bda1977f39f5673205e5ec74fbb90b798eeebe4d7"
+    },
+    {
+      "id": "LOG-128",
+      "timestamp": "2026-09-25T04:18:07.843Z",
+      "user": "System Auditor",
+      "caseId": "CASE-2026-0001",
+      "evidenceId": "EVD-2026-0001",
+      "action": "VERIFICATION_COMPLETED",
+      "result": "SUCCESS",
+      "details": "Evidence EVD-2026-0001 SHA-256 integrity VERIFIED (8de9c0f89d96f062...)",
+      "prevHash": "dfd8363994e10ef898c84f4bda1977f39f5673205e5ec74fbb90b798eeebe4d7",
+      "hash": "09ee9d4d78e861f05bba18fbcbfd985e951b9b0a4fedc3c0996ba81c74d1bb87"
+    },
+    {
+      "id": "LOG-129",
+      "timestamp": "2026-09-25T04:18:07.845Z",
+      "user": "System Auditor",
+      "caseId": "CASE-TEST-001",
+      "evidenceId": "EVD-2026-0002",
+      "action": "VERIFICATION_COMPLETED",
+      "result": "SUCCESS",
+      "details": "Evidence EVD-2026-0002 SHA-256 integrity VERIFIED (8de9c0f89d96f062...)",
+      "prevHash": "09ee9d4d78e861f05bba18fbcbfd985e951b9b0a4fedc3c0996ba81c74d1bb87",
+      "hash": "b2040cc8262f08c80a0e1e3d52941b9bc25b3eaca046ff9913fe6d56e85c19ed"
+    },
+    {
+      "id": "LOG-130",
+      "timestamp": "2026-09-25T04:18:07.848Z",
+      "user": "System Auditor",
+      "caseId": "CASE-TEST-001",
+      "evidenceId": "EVD-2026-0003",
+      "action": "VERIFICATION_COMPLETED",
+      "result": "SUCCESS",
+      "details": "Evidence EVD-2026-0003 SHA-256 integrity VERIFIED (8de9c0f89d96f062...)",
+      "prevHash": "b2040cc8262f08c80a0e1e3d52941b9bc25b3eaca046ff9913fe6d56e85c19ed",
+      "hash": "768091028ecde3c69cd5d48f4248650070d1a0e96915743bb380e9f6be037738"
+    },
+    {
+      "id": "LOG-131",
+      "timestamp": "2026-09-25T04:18:07.850Z",
+      "user": "System Auditor",
+      "caseId": "CASE-TEST-001",
+      "evidenceId": "EVD-2026-0004",
+      "action": "VERIFICATION_COMPLETED",
+      "result": "SUCCESS",
+      "details": "Evidence EVD-2026-0004 SHA-256 integrity VERIFIED (8de9c0f89d96f062...)",
+      "prevHash": "768091028ecde3c69cd5d48f4248650070d1a0e96915743bb380e9f6be037738",
+      "hash": "4b0df66b680cdd32a75b41d9f78452803b53846815457f6ae548033d9c858c35"
+    },
+    {
+      "id": "LOG-132",
+      "timestamp": "2026-09-25T04:18:07.853Z",
+      "user": "System Auditor",
+      "caseId": "CASE-2026-0001",
+      "evidenceId": "EVD-2026-0005",
+      "action": "VERIFICATION_COMPLETED",
+      "result": "SUCCESS",
+      "details": "Evidence EVD-2026-0005 SHA-256 integrity VERIFIED (8de9c0f89d96f062...)",
+      "prevHash": "4b0df66b680cdd32a75b41d9f78452803b53846815457f6ae548033d9c858c35",
+      "hash": "e86eda252fa16bf9c78ef58f7aefead91edc9881389fe54d41fb776511e81dcd"
+    }
+  ],
+  "reports": [
+    {
+      "id": "RPT-1790270601087",
+      "caseId": "CASE-2026-0001",
+      "title": "Forensic Recovery Report - Case CASE-2026-0001",
+      "type": "Forensic Recovery Report",
+      "format": "JSON",
+      "generatedAt": "2026-09-24T17:23:21.087Z",
+      "data": {
+        "reportId": "RPT-1790270601087",
+        "caseId": "CASE-2026-0001",
+        "caseName": "Cyber Heist Disk Forensic Investigation",
+        "investigator": "Sgt. Vikram Singh",
+        "organization": "Central Digital Forensics Lab (CDFL)",
+        "reportType": "Forensic Recovery Report",
+        "generatedAt": "2026-09-24T17:23:21.087Z",
+        "summary": {
+          "totalEvidenceItems": 1,
+          "totalRecoveredFiles": 4,
+          "totalAuditEvents": 7,
+          "overallIntegrityStatus": "VERIFIED"
+        },
+        "evidenceList": [
+          {
+            "id": "EVD-2026-0001",
+            "name": "sample_drive.img",
+            "hash": "8de9c0f89d96f06248e88b7cb7d96099aaddacfba16fab5f2d282b69f8c7a57c",
+            "status": "VERIFIED"
+          }
+        ],
+        "recoveredFiles": [
+          {
+            "name": "carved_evidence_photo_01.jpg",
+            "type": "JPEG Image",
+            "offset": "0x00001000",
+            "confidence": "96% (HIGH)"
+          },
+          {
+            "name": "SIH_Forensic_Investigation_Report.pdf",
+            "type": "PDF Document",
+            "offset": "0x00008000",
+            "confidence": "94% (HIGH)"
+          },
+          {
+            "name": "suspect_evidence_logs.zip",
+            "type": "ZIP Archive",
+            "offset": "0x00018000",
+            "confidence": "91% (HIGH)"
+          },
+          {
+            "name": "intercepted_evidence_diagram.png",
+            "type": "PNG Image",
+            "offset": "0x00030000",
+            "confidence": "87% (HIGH)"
+          }
+        ],
+        "auditTrailSummary": [
+          {
+            "id": "LOG-003",
+            "time": "2026-09-24T09:33:00.000Z",
+            "action": "HASH_CREATED",
+            "user": "Sgt. Vikram Singh",
+            "hash": "b3d135096a378cf9..."
+          },
+          {
+            "id": "LOG-004",
+            "time": "2026-09-24T09:35:00.000Z",
+            "action": "DEVICE_ANALYZED",
+            "user": "Sgt. Vikram Singh",
+            "hash": "746230bc796f986b..."
+          },
+          {
+            "id": "LOG-005",
+            "time": "2026-09-24T09:37:00.000Z",
+            "action": "RECOVERY_STARTED",
+            "user": "Sgt. Vikram Singh",
+            "hash": "552cfdf2a9a9f4ef..."
+          },
+          {
+            "id": "LOG-006",
+            "time": "2026-09-24T09:42:00.000Z",
+            "action": "FILE_RECOVERED",
+            "user": "Sgt. Vikram Singh",
+            "hash": "dc9d10995310e0d8..."
+          },
+          {
+            "id": "LOG-007",
+            "time": "2026-09-24T09:45:00.000Z",
+            "action": "VERIFICATION_COMPLETED",
+            "user": "Sgt. Vikram Singh",
+            "hash": "cb7bec8aca332c61..."
+          }
+        ],
+        "verificationResults": {
+          "caseId": "CASE-2026-0001",
+          "evidenceIntegrity": "VERIFIED",
+          "erasureVerification": "VERIFIED",
+          "recoveryValidation": "VERIFIED",
+          "auditIntegrity": "VERIFIED",
+          "overallStatus": "VERIFIED",
+          "auditChainDetails": {
+            "isValid": true,
+            "totalEvents": 14,
+            "status": "VERIFIED"
+          },
+          "evidenceDetails": [
+            {
+              "evidenceId": "EVD-2026-0001",
+              "originalHash": "8de9c0f89d96f06248e88b7cb7d96099aaddacfba16fab5f2d282b69f8c7a57c",
+              "currentHash": "8de9c0f89d96f06248e88b7cb7d96099aaddacfba16fab5f2d282b69f8c7a57c",
+              "status": "VERIFIED"
+            }
+          ],
+          "verifiedAt": "2026-09-24T17:23:21.087Z"
+        }
+      }
+    },
+    {
+      "id": "RPT-1790273515848",
+      "caseId": "CASE-2026-0001",
+      "title": "Forensic Recovery Report - Case CASE-2026-0001",
+      "type": "Forensic Recovery Report",
+      "format": "JSON",
+      "generatedAt": "2026-09-24T18:11:55.848Z",
+      "data": {
+        "reportId": "RPT-1790273515848",
+        "caseId": "CASE-2026-0001",
+        "caseName": "Cyber Heist Disk Forensic Investigation",
+        "investigator": "Sgt. Vikram Singh",
+        "organization": "Central Digital Forensics Lab (CDFL)",
+        "reportType": "Forensic Recovery Report",
+        "generatedAt": "2026-09-24T18:11:55.848Z",
+        "summary": {
+          "totalEvidenceItems": 1,
+          "totalRecoveredFiles": 16,
+          "totalAuditEvents": 22,
+          "overallIntegrityStatus": "VERIFIED"
+        },
+        "evidenceList": [
+          {
+            "id": "EVD-2026-0001",
+            "name": "sample_drive.img",
+            "hash": "8de9c0f89d96f06248e88b7cb7d96099aaddacfba16fab5f2d282b69f8c7a57c",
+            "status": "VERIFIED"
+          }
+        ],
+        "recoveredFiles": [
+          {
+            "name": "carved_evidence_photo_01.jpg",
+            "type": "JPEG Image",
+            "offset": "0x00001000",
+            "confidence": "96% (HIGH)"
+          },
+          {
+            "name": "SIH_Forensic_Investigation_Report.pdf",
+            "type": "PDF Document",
+            "offset": "0x00008000",
+            "confidence": "94% (HIGH)"
+          },
+          {
+            "name": "suspect_evidence_logs.zip",
+            "type": "ZIP Archive",
+            "offset": "0x00018000",
+            "confidence": "91% (HIGH)"
+          },
+          {
+            "name": "intercepted_evidence_diagram.png",
+            "type": "PNG Image",
+            "offset": "0x00030000",
+            "confidence": "87% (HIGH)"
+          },
+          {
+            "name": "carved_photo_offset_0x1000.jpg",
+            "type": "JPEG Image",
+            "offset": "0x00001000",
+            "confidence": "98% (HIGH)"
+          },
+          {
+            "name": "SIH_Forensic_Report_0x8000.pdf",
+            "type": "PDF Document",
+            "offset": "0x00008000",
+            "confidence": "98% (HIGH)"
+          },
+          {
+            "name": "carved_archive_0x18000.zip",
+            "type": "ZIP Archive",
+            "offset": "0x00018000",
+            "confidence": "98% (HIGH)"
+          },
+          {
+            "name": "intercepted_diagram_reconstructed.png",
+            "type": "PNG Image",
+            "offset": "0x00030000",
+            "confidence": "98% (HIGH)"
+          },
+          {
+            "name": "carved_photo_offset_0x1000.jpg",
+            "type": "JPEG Image",
+            "offset": "0x00001000",
+            "confidence": "98% (HIGH)"
+          },
+          {
+            "name": "SIH_Forensic_Report_0x8000.pdf",
+            "type": "PDF Document",
+            "offset": "0x00008000",
+            "confidence": "98% (HIGH)"
+          },
+          {
+            "name": "carved_archive_0x18000.zip",
+            "type": "ZIP Archive",
+            "offset": "0x00018000",
+            "confidence": "98% (HIGH)"
+          },
+          {
+            "name": "intercepted_diagram_reconstructed.png",
+            "type": "PNG Image",
+            "offset": "0x00030000",
+            "confidence": "98% (HIGH)"
+          },
+          {
+            "name": "carved_photo_offset_0x1000.jpg",
+            "type": "JPEG Image",
+            "offset": "0x00001000",
+            "confidence": "98% (HIGH)"
+          },
+          {
+            "name": "SIH_Forensic_Report_0x8000.pdf",
+            "type": "PDF Document",
+            "offset": "0x00008000",
+            "confidence": "98% (HIGH)"
+          },
+          {
+            "name": "carved_archive_0x18000.zip",
+            "type": "ZIP Archive",
+            "offset": "0x00018000",
+            "confidence": "98% (HIGH)"
+          },
+          {
+            "name": "intercepted_diagram_reconstructed.png",
+            "type": "PNG Image",
+            "offset": "0x00030000",
+            "confidence": "98% (HIGH)"
+          }
+        ],
+        "auditTrailSummary": [
+          {
+            "id": "LOG-034",
+            "time": "2026-09-24T17:47:13.502Z",
+            "action": "VERIFICATION_COMPLETED",
+            "user": "System Auditor",
+            "hash": "a1cc15003cfed7e2..."
+          },
+          {
+            "id": "LOG-037",
+            "time": "2026-09-24T17:57:27.153Z",
+            "action": "VERIFICATION_COMPLETED",
+            "user": "System Auditor",
+            "hash": "dab170b5eab840c2..."
+          },
+          {
+            "id": "LOG-040",
+            "time": "2026-09-24T17:57:27.159Z",
+            "action": "VERIFICATION_COMPLETED",
+            "user": "System Auditor",
+            "hash": "bb3f818cce7a6388..."
+          },
+          {
+            "id": "LOG-043",
+            "time": "2026-09-24T17:57:33.382Z",
+            "action": "FILE_RECOVERED",
+            "user": "Investigator",
+            "hash": "e2484147745a7d3f..."
+          },
+          {
+            "id": "LOG-044",
+            "time": "2026-09-24T17:57:33.394Z",
+            "action": "VERIFICATION_COMPLETED",
+            "user": "System Auditor",
+            "hash": "cdbc3f21c183a599..."
+          }
+        ],
+        "verificationResults": {
+          "caseId": "CASE-2026-0001",
+          "evidenceIntegrity": "VERIFIED",
+          "erasureVerification": "VERIFIED",
+          "recoveryValidation": "VERIFIED",
+          "auditIntegrity": "VERIFIED",
+          "overallStatus": "VERIFIED",
+          "auditChainDetails": {
+            "isValid": true,
+            "totalEvents": 51,
+            "status": "VERIFIED"
+          },
+          "evidenceDetails": [
+            {
+              "evidenceId": "EVD-2026-0001",
+              "originalHash": "8de9c0f89d96f06248e88b7cb7d96099aaddacfba16fab5f2d282b69f8c7a57c",
+              "currentHash": "8de9c0f89d96f06248e88b7cb7d96099aaddacfba16fab5f2d282b69f8c7a57c",
+              "status": "VERIFIED"
+            }
+          ],
+          "verifiedAt": "2026-09-24T18:11:55.848Z"
+        }
+      }
+    },
+    {
+      "id": "CERT-SAN-1790273875943",
+      "caseId": "CASE-2026-0001",
+      "title": "Sanitization Certificate - Seagate Barracuda ST1000LM048",
+      "type": "Sanitization Certificate",
+      "format": "JSON",
+      "generatedAt": "2026-09-24T18:17:55.943Z",
+      "data": {
+        "certificateId": "CERT-SAN-1790273875943",
+        "caseId": "CASE-2026-0001",
+        "deviceId": "DEV-001",
+        "deviceName": "Seagate Barracuda ST1000LM048",
+        "deviceCapacity": "1.0 TB",
+        "deviceFilesystem": "NTFS",
+        "sanitizationMethod": "DoD 5220.22-M (3 Passes)",
+        "standardCompliance": "US DoD 5220.22-M",
+        "passesCompleted": 3,
+        "preErasureHash": "a89c20f17823b1029e87f12349001bca76509",
+        "postErasureHash": "0000000000000000000000000000000000000000000000000000000000000000",
+        "verificationResult": "VERIFIED_ZERO_ENTROPY (100% Sectors Verified Clean)",
+        "sanitizedAt": "2026-09-24T18:17:55.943Z",
+        "operator": "Investigator",
+        "safeDemoMode": true
+      }
+    }
+  ],
+  "verificationResults": [
+    {
+      "id": "VRF-001",
+      "caseId": "CASE-2026-0001",
+      "evidenceIntegrity": "VERIFIED",
+      "erasureVerification": "NOT_APPLICABLE",
+      "recoveryValidation": "VERIFIED",
+      "auditIntegrity": "VERIFIED",
+      "overallStatus": "VERIFIED",
+      "lastVerified": "2026-09-24T09:45:00.000Z"
+    },
+    {
+      "caseId": "CASE-2026-0001",
+      "evidenceIntegrity": "VERIFIED",
+      "erasureVerification": "VERIFIED",
+      "recoveryValidation": "VERIFIED",
+      "auditIntegrity": "VERIFIED",
+      "overallStatus": "VERIFIED",
+      "auditChainDetails": {
+        "isValid": true,
+        "totalEvents": 14,
+        "status": "VERIFIED"
+      },
+      "evidenceDetails": [
+        {
+          "evidenceId": "EVD-2026-0001",
+          "originalHash": "8de9c0f89d96f06248e88b7cb7d96099aaddacfba16fab5f2d282b69f8c7a57c",
+          "currentHash": "8de9c0f89d96f06248e88b7cb7d96099aaddacfba16fab5f2d282b69f8c7a57c",
+          "status": "VERIFIED"
+        }
+      ],
+      "verifiedAt": "2026-09-24T17:23:21.087Z"
+    },
+    {
+      "caseId": "ALL_CASES",
+      "evidenceIntegrity": "VERIFIED",
+      "erasureVerification": "VERIFIED",
+      "recoveryValidation": "VERIFIED",
+      "auditIntegrity": "VERIFIED",
+      "overallStatus": "VERIFIED",
+      "auditChainDetails": {
+        "isValid": true,
+        "totalEvents": 17,
+        "status": "VERIFIED"
+      },
+      "evidenceDetails": [
+        {
+          "evidenceId": "EVD-2026-0001",
+          "originalHash": "8de9c0f89d96f06248e88b7cb7d96099aaddacfba16fab5f2d282b69f8c7a57c",
+          "currentHash": "8de9c0f89d96f06248e88b7cb7d96099aaddacfba16fab5f2d282b69f8c7a57c",
+          "status": "VERIFIED"
+        },
+        {
+          "evidenceId": "EVD-2026-0002",
+          "originalHash": "8de9c0f89d96f06248e88b7cb7d96099aaddacfba16fab5f2d282b69f8c7a57c",
+          "currentHash": "8de9c0f89d96f06248e88b7cb7d96099aaddacfba16fab5f2d282b69f8c7a57c",
+          "status": "VERIFIED"
+        },
+        {
+          "evidenceId": "EVD-2026-0003",
+          "originalHash": "8de9c0f89d96f06248e88b7cb7d96099aaddacfba16fab5f2d282b69f8c7a57c",
+          "currentHash": "8de9c0f89d96f06248e88b7cb7d96099aaddacfba16fab5f2d282b69f8c7a57c",
+          "status": "VERIFIED"
+        }
+      ],
+      "verifiedAt": "2026-09-24T17:41:03.232Z"
+    },
+    {
+      "caseId": "ALL_CASES",
+      "evidenceIntegrity": "VERIFIED",
+      "erasureVerification": "VERIFIED",
+      "recoveryValidation": "VERIFIED",
+      "auditIntegrity": "VERIFIED",
+      "overallStatus": "VERIFIED",
+      "auditChainDetails": {
+        "isValid": true,
+        "totalEvents": 20,
+        "status": "VERIFIED"
+      },
+      "evidenceDetails": [
+        {
+          "evidenceId": "EVD-2026-0001",
+          "originalHash": "8de9c0f89d96f06248e88b7cb7d96099aaddacfba16fab5f2d282b69f8c7a57c",
+          "currentHash": "8de9c0f89d96f06248e88b7cb7d96099aaddacfba16fab5f2d282b69f8c7a57c",
+          "status": "VERIFIED"
+        },
+        {
+          "evidenceId": "EVD-2026-0002",
+          "originalHash": "8de9c0f89d96f06248e88b7cb7d96099aaddacfba16fab5f2d282b69f8c7a57c",
+          "currentHash": "8de9c0f89d96f06248e88b7cb7d96099aaddacfba16fab5f2d282b69f8c7a57c",
+          "status": "VERIFIED"
+        },
+        {
+          "evidenceId": "EVD-2026-0003",
+          "originalHash": "8de9c0f89d96f06248e88b7cb7d96099aaddacfba16fab5f2d282b69f8c7a57c",
+          "currentHash": "8de9c0f89d96f06248e88b7cb7d96099aaddacfba16fab5f2d282b69f8c7a57c",
+          "status": "VERIFIED"
+        }
+      ],
+      "verifiedAt": "2026-09-24T17:41:03.241Z"
+    },
+    {
+      "caseId": "ALL_CASES",
+      "evidenceIntegrity": "VERIFIED",
+      "erasureVerification": "VERIFIED",
+      "recoveryValidation": "VERIFIED",
+      "auditIntegrity": "VERIFIED",
+      "overallStatus": "VERIFIED",
+      "auditChainDetails": {
+        "isValid": true,
+        "totalEvents": 24,
+        "status": "VERIFIED"
+      },
+      "evidenceDetails": [
+        {
+          "evidenceId": "EVD-2026-0001",
+          "originalHash": "8de9c0f89d96f06248e88b7cb7d96099aaddacfba16fab5f2d282b69f8c7a57c",
+          "currentHash": "8de9c0f89d96f06248e88b7cb7d96099aaddacfba16fab5f2d282b69f8c7a57c",
+          "status": "VERIFIED"
+        },
+        {
+          "evidenceId": "EVD-2026-0002",
+          "originalHash": "8de9c0f89d96f06248e88b7cb7d96099aaddacfba16fab5f2d282b69f8c7a57c",
+          "currentHash": "8de9c0f89d96f06248e88b7cb7d96099aaddacfba16fab5f2d282b69f8c7a57c",
+          "status": "VERIFIED"
+        },
+        {
+          "evidenceId": "EVD-2026-0003",
+          "originalHash": "8de9c0f89d96f06248e88b7cb7d96099aaddacfba16fab5f2d282b69f8c7a57c",
+          "currentHash": "8de9c0f89d96f06248e88b7cb7d96099aaddacfba16fab5f2d282b69f8c7a57c",
+          "status": "VERIFIED"
+        }
+      ],
+      "verifiedAt": "2026-09-24T17:42:45.892Z"
+    },
+    {
+      "caseId": "CASE-2026-0001",
+      "evidenceIntegrity": "VERIFIED",
+      "erasureVerification": "VERIFIED",
+      "recoveryValidation": "VERIFIED",
+      "auditIntegrity": "VERIFIED",
+      "overallStatus": "VERIFIED",
+      "auditChainDetails": {
+        "isValid": true,
+        "totalEvents": 25,
+        "status": "VERIFIED"
+      },
+      "evidenceDetails": [
+        {
+          "evidenceId": "EVD-2026-0001",
+          "originalHash": "8de9c0f89d96f06248e88b7cb7d96099aaddacfba16fab5f2d282b69f8c7a57c",
+          "currentHash": "8de9c0f89d96f06248e88b7cb7d96099aaddacfba16fab5f2d282b69f8c7a57c",
+          "status": "VERIFIED"
+        }
+      ],
+      "verifiedAt": "2026-09-24T17:43:03.131Z"
+    },
+    {
+      "caseId": "CASE-2026-0001",
+      "evidenceIntegrity": "VERIFIED",
+      "erasureVerification": "VERIFIED",
+      "recoveryValidation": "VERIFIED",
+      "auditIntegrity": "VERIFIED",
+      "overallStatus": "VERIFIED",
+      "auditChainDetails": {
+        "isValid": true,
+        "totalEvents": 26,
+        "status": "VERIFIED"
+      },
+      "evidenceDetails": [
+        {
+          "evidenceId": "EVD-2026-0001",
+          "originalHash": "8de9c0f89d96f06248e88b7cb7d96099aaddacfba16fab5f2d282b69f8c7a57c",
+          "currentHash": "8de9c0f89d96f06248e88b7cb7d96099aaddacfba16fab5f2d282b69f8c7a57c",
+          "status": "VERIFIED"
+        }
+      ],
+      "verifiedAt": "2026-09-24T17:43:04.128Z"
+    },
+    {
+      "caseId": "ALL_CASES",
+      "evidenceIntegrity": "VERIFIED",
+      "erasureVerification": "VERIFIED",
+      "recoveryValidation": "VERIFIED",
+      "auditIntegrity": "VERIFIED",
+      "overallStatus": "VERIFIED",
+      "auditChainDetails": {
+        "isValid": true,
+        "totalEvents": 29,
+        "status": "VERIFIED"
+      },
+      "evidenceDetails": [
+        {
+          "evidenceId": "EVD-2026-0001",
+          "originalHash": "8de9c0f89d96f06248e88b7cb7d96099aaddacfba16fab5f2d282b69f8c7a57c",
+          "currentHash": "8de9c0f89d96f06248e88b7cb7d96099aaddacfba16fab5f2d282b69f8c7a57c",
+          "status": "VERIFIED"
+        },
+        {
+          "evidenceId": "EVD-2026-0002",
+          "originalHash": "8de9c0f89d96f06248e88b7cb7d96099aaddacfba16fab5f2d282b69f8c7a57c",
+          "currentHash": "8de9c0f89d96f06248e88b7cb7d96099aaddacfba16fab5f2d282b69f8c7a57c",
+          "status": "VERIFIED"
+        },
+        {
+          "evidenceId": "EVD-2026-0003",
+          "originalHash": "8de9c0f89d96f06248e88b7cb7d96099aaddacfba16fab5f2d282b69f8c7a57c",
+          "currentHash": "8de9c0f89d96f06248e88b7cb7d96099aaddacfba16fab5f2d282b69f8c7a57c",
+          "status": "VERIFIED"
+        }
+      ],
+      "verifiedAt": "2026-09-24T17:43:51.506Z"
+    },
+    {
+      "caseId": "ALL_CASES",
+      "evidenceIntegrity": "VERIFIED",
+      "erasureVerification": "VERIFIED",
+      "recoveryValidation": "VERIFIED",
+      "auditIntegrity": "VERIFIED",
+      "overallStatus": "VERIFIED",
+      "auditChainDetails": {
+        "isValid": true,
+        "totalEvents": 32,
+        "status": "VERIFIED"
+      },
+      "evidenceDetails": [
+        {
+          "evidenceId": "EVD-2026-0001",
+          "originalHash": "8de9c0f89d96f06248e88b7cb7d96099aaddacfba16fab5f2d282b69f8c7a57c",
+          "currentHash": "8de9c0f89d96f06248e88b7cb7d96099aaddacfba16fab5f2d282b69f8c7a57c",
+          "status": "VERIFIED"
+        },
+        {
+          "evidenceId": "EVD-2026-0002",
+          "originalHash": "8de9c0f89d96f06248e88b7cb7d96099aaddacfba16fab5f2d282b69f8c7a57c",
+          "currentHash": "8de9c0f89d96f06248e88b7cb7d96099aaddacfba16fab5f2d282b69f8c7a57c",
+          "status": "VERIFIED"
+        },
+        {
+          "evidenceId": "EVD-2026-0003",
+          "originalHash": "8de9c0f89d96f06248e88b7cb7d96099aaddacfba16fab5f2d282b69f8c7a57c",
+          "currentHash": "8de9c0f89d96f06248e88b7cb7d96099aaddacfba16fab5f2d282b69f8c7a57c",
+          "status": "VERIFIED"
+        }
+      ],
+      "verifiedAt": "2026-09-24T17:43:51.516Z"
+    },
+    {
+      "caseId": "ALL_CASES",
+      "evidenceIntegrity": "VERIFIED",
+      "erasureVerification": "VERIFIED",
+      "recoveryValidation": "VERIFIED",
+      "auditIntegrity": "VERIFIED",
+      "overallStatus": "VERIFIED",
+      "auditChainDetails": {
+        "isValid": true,
+        "totalEvents": 36,
+        "status": "VERIFIED"
+      },
+      "evidenceDetails": [
+        {
+          "evidenceId": "EVD-2026-0001",
+          "originalHash": "8de9c0f89d96f06248e88b7cb7d96099aaddacfba16fab5f2d282b69f8c7a57c",
+          "currentHash": "8de9c0f89d96f06248e88b7cb7d96099aaddacfba16fab5f2d282b69f8c7a57c",
+          "status": "VERIFIED"
+        },
+        {
+          "evidenceId": "EVD-2026-0002",
+          "originalHash": "8de9c0f89d96f06248e88b7cb7d96099aaddacfba16fab5f2d282b69f8c7a57c",
+          "currentHash": "8de9c0f89d96f06248e88b7cb7d96099aaddacfba16fab5f2d282b69f8c7a57c",
+          "status": "VERIFIED"
+        },
+        {
+          "evidenceId": "EVD-2026-0003",
+          "originalHash": "8de9c0f89d96f06248e88b7cb7d96099aaddacfba16fab5f2d282b69f8c7a57c",
+          "currentHash": "8de9c0f89d96f06248e88b7cb7d96099aaddacfba16fab5f2d282b69f8c7a57c",
+          "status": "VERIFIED"
+        }
+      ],
+      "verifiedAt": "2026-09-24T17:47:13.506Z"
+    },
+    {
+      "caseId": "ALL_CASES",
+      "evidenceIntegrity": "VERIFIED",
+      "erasureVerification": "VERIFIED",
+      "recoveryValidation": "VERIFIED",
+      "auditIntegrity": "VERIFIED",
+      "overallStatus": "VERIFIED",
+      "auditChainDetails": {
+        "isValid": true,
+        "totalEvents": 39,
+        "status": "VERIFIED"
+      },
+      "evidenceDetails": [
+        {
+          "evidenceId": "EVD-2026-0001",
+          "originalHash": "8de9c0f89d96f06248e88b7cb7d96099aaddacfba16fab5f2d282b69f8c7a57c",
+          "currentHash": "8de9c0f89d96f06248e88b7cb7d96099aaddacfba16fab5f2d282b69f8c7a57c",
+          "status": "VERIFIED"
+        },
+        {
+          "evidenceId": "EVD-2026-0002",
+          "originalHash": "8de9c0f89d96f06248e88b7cb7d96099aaddacfba16fab5f2d282b69f8c7a57c",
+          "currentHash": "8de9c0f89d96f06248e88b7cb7d96099aaddacfba16fab5f2d282b69f8c7a57c",
+          "status": "VERIFIED"
+        },
+        {
+          "evidenceId": "EVD-2026-0003",
+          "originalHash": "8de9c0f89d96f06248e88b7cb7d96099aaddacfba16fab5f2d282b69f8c7a57c",
+          "currentHash": "8de9c0f89d96f06248e88b7cb7d96099aaddacfba16fab5f2d282b69f8c7a57c",
+          "status": "VERIFIED"
+        }
+      ],
+      "verifiedAt": "2026-09-24T17:57:27.155Z"
+    },
+    {
+      "caseId": "ALL_CASES",
+      "evidenceIntegrity": "VERIFIED",
+      "erasureVerification": "VERIFIED",
+      "recoveryValidation": "VERIFIED",
+      "auditIntegrity": "VERIFIED",
+      "overallStatus": "VERIFIED",
+      "auditChainDetails": {
+        "isValid": true,
+        "totalEvents": 42,
+        "status": "VERIFIED"
+      },
+      "evidenceDetails": [
+        {
+          "evidenceId": "EVD-2026-0001",
+          "originalHash": "8de9c0f89d96f06248e88b7cb7d96099aaddacfba16fab5f2d282b69f8c7a57c",
+          "currentHash": "8de9c0f89d96f06248e88b7cb7d96099aaddacfba16fab5f2d282b69f8c7a57c",
+          "status": "VERIFIED"
+        },
+        {
+          "evidenceId": "EVD-2026-0002",
+          "originalHash": "8de9c0f89d96f06248e88b7cb7d96099aaddacfba16fab5f2d282b69f8c7a57c",
+          "currentHash": "8de9c0f89d96f06248e88b7cb7d96099aaddacfba16fab5f2d282b69f8c7a57c",
+          "status": "VERIFIED"
+        },
+        {
+          "evidenceId": "EVD-2026-0003",
+          "originalHash": "8de9c0f89d96f06248e88b7cb7d96099aaddacfba16fab5f2d282b69f8c7a57c",
+          "currentHash": "8de9c0f89d96f06248e88b7cb7d96099aaddacfba16fab5f2d282b69f8c7a57c",
+          "status": "VERIFIED"
+        }
+      ],
+      "verifiedAt": "2026-09-24T17:57:27.163Z"
+    },
+    {
+      "caseId": "ALL_CASES",
+      "evidenceIntegrity": "VERIFIED",
+      "erasureVerification": "VERIFIED",
+      "recoveryValidation": "VERIFIED",
+      "auditIntegrity": "VERIFIED",
+      "overallStatus": "VERIFIED",
+      "auditChainDetails": {
+        "isValid": true,
+        "totalEvents": 46,
+        "status": "VERIFIED"
+      },
+      "evidenceDetails": [
+        {
+          "evidenceId": "EVD-2026-0001",
+          "originalHash": "8de9c0f89d96f06248e88b7cb7d96099aaddacfba16fab5f2d282b69f8c7a57c",
+          "currentHash": "8de9c0f89d96f06248e88b7cb7d96099aaddacfba16fab5f2d282b69f8c7a57c",
+          "status": "VERIFIED"
+        },
+        {
+          "evidenceId": "EVD-2026-0002",
+          "originalHash": "8de9c0f89d96f06248e88b7cb7d96099aaddacfba16fab5f2d282b69f8c7a57c",
+          "currentHash": "8de9c0f89d96f06248e88b7cb7d96099aaddacfba16fab5f2d282b69f8c7a57c",
+          "status": "VERIFIED"
+        },
+        {
+          "evidenceId": "EVD-2026-0003",
+          "originalHash": "8de9c0f89d96f06248e88b7cb7d96099aaddacfba16fab5f2d282b69f8c7a57c",
+          "currentHash": "8de9c0f89d96f06248e88b7cb7d96099aaddacfba16fab5f2d282b69f8c7a57c",
+          "status": "VERIFIED"
+        }
+      ],
+      "verifiedAt": "2026-09-24T17:57:33.401Z"
+    },
+    {
+      "caseId": "CASE-2026-0001",
+      "evidenceIntegrity": "VERIFIED",
+      "erasureVerification": "VERIFIED",
+      "recoveryValidation": "VERIFIED",
+      "auditIntegrity": "VERIFIED",
+      "overallStatus": "VERIFIED",
+      "auditChainDetails": {
+        "isValid": true,
+        "totalEvents": 51,
+        "status": "VERIFIED"
+      },
+      "evidenceDetails": [
+        {
+          "evidenceId": "EVD-2026-0001",
+          "originalHash": "8de9c0f89d96f06248e88b7cb7d96099aaddacfba16fab5f2d282b69f8c7a57c",
+          "currentHash": "8de9c0f89d96f06248e88b7cb7d96099aaddacfba16fab5f2d282b69f8c7a57c",
+          "status": "VERIFIED"
+        }
+      ],
+      "verifiedAt": "2026-09-24T18:11:55.848Z"
+    },
+    {
+      "caseId": "ALL_CASES",
+      "evidenceIntegrity": "VERIFIED",
+      "erasureVerification": "VERIFIED",
+      "recoveryValidation": "VERIFIED",
+      "auditIntegrity": "VERIFIED",
+      "overallStatus": "VERIFIED",
+      "auditChainDetails": {
+        "isValid": true,
+        "totalEvents": 55,
+        "status": "VERIFIED"
+      },
+      "evidenceDetails": [
+        {
+          "evidenceId": "EVD-2026-0001",
+          "originalHash": "8de9c0f89d96f06248e88b7cb7d96099aaddacfba16fab5f2d282b69f8c7a57c",
+          "currentHash": "8de9c0f89d96f06248e88b7cb7d96099aaddacfba16fab5f2d282b69f8c7a57c",
+          "status": "VERIFIED"
+        },
+        {
+          "evidenceId": "EVD-2026-0002",
+          "originalHash": "8de9c0f89d96f06248e88b7cb7d96099aaddacfba16fab5f2d282b69f8c7a57c",
+          "currentHash": "8de9c0f89d96f06248e88b7cb7d96099aaddacfba16fab5f2d282b69f8c7a57c",
+          "status": "VERIFIED"
+        },
+        {
+          "evidenceId": "EVD-2026-0003",
+          "originalHash": "8de9c0f89d96f06248e88b7cb7d96099aaddacfba16fab5f2d282b69f8c7a57c",
+          "currentHash": "8de9c0f89d96f06248e88b7cb7d96099aaddacfba16fab5f2d282b69f8c7a57c",
+          "status": "VERIFIED"
+        },
+        {
+          "evidenceId": "EVD-2026-0004",
+          "originalHash": "8de9c0f89d96f06248e88b7cb7d96099aaddacfba16fab5f2d282b69f8c7a57c",
+          "currentHash": "8de9c0f89d96f06248e88b7cb7d96099aaddacfba16fab5f2d282b69f8c7a57c",
+          "status": "VERIFIED"
+        }
+      ],
+      "verifiedAt": "2026-09-24T18:14:29.134Z"
+    },
+    {
+      "caseId": "ALL_CASES",
+      "evidenceIntegrity": "VERIFIED",
+      "erasureVerification": "VERIFIED",
+      "recoveryValidation": "VERIFIED",
+      "auditIntegrity": "VERIFIED",
+      "overallStatus": "VERIFIED",
+      "auditChainDetails": {
+        "isValid": true,
+        "totalEvents": 59,
+        "status": "VERIFIED"
+      },
+      "evidenceDetails": [
+        {
+          "evidenceId": "EVD-2026-0001",
+          "originalHash": "8de9c0f89d96f06248e88b7cb7d96099aaddacfba16fab5f2d282b69f8c7a57c",
+          "currentHash": "8de9c0f89d96f06248e88b7cb7d96099aaddacfba16fab5f2d282b69f8c7a57c",
+          "status": "VERIFIED"
+        },
+        {
+          "evidenceId": "EVD-2026-0002",
+          "originalHash": "8de9c0f89d96f06248e88b7cb7d96099aaddacfba16fab5f2d282b69f8c7a57c",
+          "currentHash": "8de9c0f89d96f06248e88b7cb7d96099aaddacfba16fab5f2d282b69f8c7a57c",
+          "status": "VERIFIED"
+        },
+        {
+          "evidenceId": "EVD-2026-0003",
+          "originalHash": "8de9c0f89d96f06248e88b7cb7d96099aaddacfba16fab5f2d282b69f8c7a57c",
+          "currentHash": "8de9c0f89d96f06248e88b7cb7d96099aaddacfba16fab5f2d282b69f8c7a57c",
+          "status": "VERIFIED"
+        },
+        {
+          "evidenceId": "EVD-2026-0004",
+          "originalHash": "8de9c0f89d96f06248e88b7cb7d96099aaddacfba16fab5f2d282b69f8c7a57c",
+          "currentHash": "8de9c0f89d96f06248e88b7cb7d96099aaddacfba16fab5f2d282b69f8c7a57c",
+          "status": "VERIFIED"
+        }
+      ],
+      "verifiedAt": "2026-09-24T18:14:29.290Z"
+    },
+    {
+      "caseId": "ALL_CASES",
+      "evidenceIntegrity": "VERIFIED",
+      "erasureVerification": "VERIFIED",
+      "recoveryValidation": "VERIFIED",
+      "auditIntegrity": "VERIFIED",
+      "overallStatus": "VERIFIED",
+      "auditChainDetails": {
+        "isValid": true,
+        "totalEvents": 64,
+        "status": "VERIFIED"
+      },
+      "evidenceDetails": [
+        {
+          "evidenceId": "EVD-2026-0001",
+          "originalHash": "8de9c0f89d96f06248e88b7cb7d96099aaddacfba16fab5f2d282b69f8c7a57c",
+          "currentHash": "8de9c0f89d96f06248e88b7cb7d96099aaddacfba16fab5f2d282b69f8c7a57c",
+          "status": "VERIFIED"
+        },
+        {
+          "evidenceId": "EVD-2026-0002",
+          "originalHash": "8de9c0f89d96f06248e88b7cb7d96099aaddacfba16fab5f2d282b69f8c7a57c",
+          "currentHash": "8de9c0f89d96f06248e88b7cb7d96099aaddacfba16fab5f2d282b69f8c7a57c",
+          "status": "VERIFIED"
+        },
+        {
+          "evidenceId": "EVD-2026-0003",
+          "originalHash": "8de9c0f89d96f06248e88b7cb7d96099aaddacfba16fab5f2d282b69f8c7a57c",
+          "currentHash": "8de9c0f89d96f06248e88b7cb7d96099aaddacfba16fab5f2d282b69f8c7a57c",
+          "status": "VERIFIED"
+        },
+        {
+          "evidenceId": "EVD-2026-0004",
+          "originalHash": "8de9c0f89d96f06248e88b7cb7d96099aaddacfba16fab5f2d282b69f8c7a57c",
+          "currentHash": "8de9c0f89d96f06248e88b7cb7d96099aaddacfba16fab5f2d282b69f8c7a57c",
+          "status": "VERIFIED"
+        }
+      ],
+      "verifiedAt": "2026-09-24T18:17:05.066Z"
+    },
+    {
+      "caseId": "ALL_CASES",
+      "evidenceIntegrity": "VERIFIED",
+      "erasureVerification": "VERIFIED",
+      "recoveryValidation": "VERIFIED",
+      "auditIntegrity": "VERIFIED",
+      "overallStatus": "VERIFIED",
+      "auditChainDetails": {
+        "isValid": true,
+        "totalEvents": 68,
+        "status": "VERIFIED"
+      },
+      "evidenceDetails": [
+        {
+          "evidenceId": "EVD-2026-0001",
+          "originalHash": "8de9c0f89d96f06248e88b7cb7d96099aaddacfba16fab5f2d282b69f8c7a57c",
+          "currentHash": "8de9c0f89d96f06248e88b7cb7d96099aaddacfba16fab5f2d282b69f8c7a57c",
+          "status": "VERIFIED"
+        },
+        {
+          "evidenceId": "EVD-2026-0002",
+          "originalHash": "8de9c0f89d96f06248e88b7cb7d96099aaddacfba16fab5f2d282b69f8c7a57c",
+          "currentHash": "8de9c0f89d96f06248e88b7cb7d96099aaddacfba16fab5f2d282b69f8c7a57c",
+          "status": "VERIFIED"
+        },
+        {
+          "evidenceId": "EVD-2026-0003",
+          "originalHash": "8de9c0f89d96f06248e88b7cb7d96099aaddacfba16fab5f2d282b69f8c7a57c",
+          "currentHash": "8de9c0f89d96f06248e88b7cb7d96099aaddacfba16fab5f2d282b69f8c7a57c",
+          "status": "VERIFIED"
+        },
+        {
+          "evidenceId": "EVD-2026-0004",
+          "originalHash": "8de9c0f89d96f06248e88b7cb7d96099aaddacfba16fab5f2d282b69f8c7a57c",
+          "currentHash": "8de9c0f89d96f06248e88b7cb7d96099aaddacfba16fab5f2d282b69f8c7a57c",
+          "status": "VERIFIED"
+        }
+      ],
+      "verifiedAt": "2026-09-24T18:17:05.206Z"
+    },
+    {
+      "caseId": "ALL_CASES",
+      "evidenceIntegrity": "VERIFIED",
+      "erasureVerification": "VERIFIED",
+      "recoveryValidation": "VERIFIED",
+      "auditIntegrity": "VERIFIED",
+      "overallStatus": "VERIFIED",
+      "auditChainDetails": {
+        "isValid": true,
+        "totalEvents": 72,
+        "status": "VERIFIED"
+      },
+      "evidenceDetails": [
+        {
+          "evidenceId": "EVD-2026-0001",
+          "originalHash": "8de9c0f89d96f06248e88b7cb7d96099aaddacfba16fab5f2d282b69f8c7a57c",
+          "currentHash": "8de9c0f89d96f06248e88b7cb7d96099aaddacfba16fab5f2d282b69f8c7a57c",
+          "status": "VERIFIED"
+        },
+        {
+          "evidenceId": "EVD-2026-0002",
+          "originalHash": "8de9c0f89d96f06248e88b7cb7d96099aaddacfba16fab5f2d282b69f8c7a57c",
+          "currentHash": "8de9c0f89d96f06248e88b7cb7d96099aaddacfba16fab5f2d282b69f8c7a57c",
+          "status": "VERIFIED"
+        },
+        {
+          "evidenceId": "EVD-2026-0003",
+          "originalHash": "8de9c0f89d96f06248e88b7cb7d96099aaddacfba16fab5f2d282b69f8c7a57c",
+          "currentHash": "8de9c0f89d96f06248e88b7cb7d96099aaddacfba16fab5f2d282b69f8c7a57c",
+          "status": "VERIFIED"
+        },
+        {
+          "evidenceId": "EVD-2026-0004",
+          "originalHash": "8de9c0f89d96f06248e88b7cb7d96099aaddacfba16fab5f2d282b69f8c7a57c",
+          "currentHash": "8de9c0f89d96f06248e88b7cb7d96099aaddacfba16fab5f2d282b69f8c7a57c",
+          "status": "VERIFIED"
+        }
+      ],
+      "verifiedAt": "2026-09-24T18:17:06.752Z"
+    },
+    {
+      "caseId": "ALL_CASES",
+      "evidenceIntegrity": "VERIFIED",
+      "erasureVerification": "VERIFIED",
+      "recoveryValidation": "VERIFIED",
+      "auditIntegrity": "VERIFIED",
+      "overallStatus": "VERIFIED",
+      "auditChainDetails": {
+        "isValid": true,
+        "totalEvents": 78,
+        "status": "VERIFIED"
+      },
+      "evidenceDetails": [
+        {
+          "evidenceId": "EVD-2026-0001",
+          "originalHash": "8de9c0f89d96f06248e88b7cb7d96099aaddacfba16fab5f2d282b69f8c7a57c",
+          "currentHash": "8de9c0f89d96f06248e88b7cb7d96099aaddacfba16fab5f2d282b69f8c7a57c",
+          "status": "VERIFIED"
+        },
+        {
+          "evidenceId": "EVD-2026-0002",
+          "originalHash": "8de9c0f89d96f06248e88b7cb7d96099aaddacfba16fab5f2d282b69f8c7a57c",
+          "currentHash": "8de9c0f89d96f06248e88b7cb7d96099aaddacfba16fab5f2d282b69f8c7a57c",
+          "status": "VERIFIED"
+        },
+        {
+          "evidenceId": "EVD-2026-0003",
+          "originalHash": "8de9c0f89d96f06248e88b7cb7d96099aaddacfba16fab5f2d282b69f8c7a57c",
+          "currentHash": "8de9c0f89d96f06248e88b7cb7d96099aaddacfba16fab5f2d282b69f8c7a57c",
+          "status": "VERIFIED"
+        },
+        {
+          "evidenceId": "EVD-2026-0004",
+          "originalHash": "8de9c0f89d96f06248e88b7cb7d96099aaddacfba16fab5f2d282b69f8c7a57c",
+          "currentHash": "8de9c0f89d96f06248e88b7cb7d96099aaddacfba16fab5f2d282b69f8c7a57c",
+          "status": "VERIFIED"
+        },
+        {
+          "evidenceId": "EVD-2026-0005",
+          "originalHash": "8de9c0f89d96f06248e88b7cb7d96099aaddacfba16fab5f2d282b69f8c7a57c",
+          "currentHash": "8de9c0f89d96f06248e88b7cb7d96099aaddacfba16fab5f2d282b69f8c7a57c",
+          "status": "VERIFIED"
+        }
+      ],
+      "verifiedAt": "2026-09-24T18:17:13.238Z"
+    },
+    {
+      "caseId": "ALL_CASES",
+      "evidenceIntegrity": "VERIFIED",
+      "erasureVerification": "VERIFIED",
+      "recoveryValidation": "VERIFIED",
+      "auditIntegrity": "VERIFIED",
+      "overallStatus": "VERIFIED",
+      "auditChainDetails": {
+        "isValid": true,
+        "totalEvents": 84,
+        "status": "VERIFIED"
+      },
+      "evidenceDetails": [
+        {
+          "evidenceId": "EVD-2026-0001",
+          "originalHash": "8de9c0f89d96f06248e88b7cb7d96099aaddacfba16fab5f2d282b69f8c7a57c",
+          "currentHash": "8de9c0f89d96f06248e88b7cb7d96099aaddacfba16fab5f2d282b69f8c7a57c",
+          "status": "VERIFIED"
+        },
+        {
+          "evidenceId": "EVD-2026-0002",
+          "originalHash": "8de9c0f89d96f06248e88b7cb7d96099aaddacfba16fab5f2d282b69f8c7a57c",
+          "currentHash": "8de9c0f89d96f06248e88b7cb7d96099aaddacfba16fab5f2d282b69f8c7a57c",
+          "status": "VERIFIED"
+        },
+        {
+          "evidenceId": "EVD-2026-0003",
+          "originalHash": "8de9c0f89d96f06248e88b7cb7d96099aaddacfba16fab5f2d282b69f8c7a57c",
+          "currentHash": "8de9c0f89d96f06248e88b7cb7d96099aaddacfba16fab5f2d282b69f8c7a57c",
+          "status": "VERIFIED"
+        },
+        {
+          "evidenceId": "EVD-2026-0004",
+          "originalHash": "8de9c0f89d96f06248e88b7cb7d96099aaddacfba16fab5f2d282b69f8c7a57c",
+          "currentHash": "8de9c0f89d96f06248e88b7cb7d96099aaddacfba16fab5f2d282b69f8c7a57c",
+          "status": "VERIFIED"
+        },
+        {
+          "evidenceId": "EVD-2026-0005",
+          "originalHash": "8de9c0f89d96f06248e88b7cb7d96099aaddacfba16fab5f2d282b69f8c7a57c",
+          "currentHash": "8de9c0f89d96f06248e88b7cb7d96099aaddacfba16fab5f2d282b69f8c7a57c",
+          "status": "VERIFIED"
+        }
+      ],
+      "verifiedAt": "2026-09-24T18:17:17.896Z"
+    },
+    {
+      "caseId": "ALL_CASES",
+      "evidenceIntegrity": "VERIFIED",
+      "erasureVerification": "VERIFIED",
+      "recoveryValidation": "VERIFIED",
+      "auditIntegrity": "VERIFIED",
+      "overallStatus": "VERIFIED",
+      "auditChainDetails": {
+        "isValid": true,
+        "totalEvents": 91,
+        "status": "VERIFIED"
+      },
+      "evidenceDetails": [
+        {
+          "evidenceId": "EVD-2026-0001",
+          "originalHash": "8de9c0f89d96f06248e88b7cb7d96099aaddacfba16fab5f2d282b69f8c7a57c",
+          "currentHash": "8de9c0f89d96f06248e88b7cb7d96099aaddacfba16fab5f2d282b69f8c7a57c",
+          "status": "VERIFIED"
+        },
+        {
+          "evidenceId": "EVD-2026-0002",
+          "originalHash": "8de9c0f89d96f06248e88b7cb7d96099aaddacfba16fab5f2d282b69f8c7a57c",
+          "currentHash": "8de9c0f89d96f06248e88b7cb7d96099aaddacfba16fab5f2d282b69f8c7a57c",
+          "status": "VERIFIED"
+        },
+        {
+          "evidenceId": "EVD-2026-0003",
+          "originalHash": "8de9c0f89d96f06248e88b7cb7d96099aaddacfba16fab5f2d282b69f8c7a57c",
+          "currentHash": "8de9c0f89d96f06248e88b7cb7d96099aaddacfba16fab5f2d282b69f8c7a57c",
+          "status": "VERIFIED"
+        },
+        {
+          "evidenceId": "EVD-2026-0004",
+          "originalHash": "8de9c0f89d96f06248e88b7cb7d96099aaddacfba16fab5f2d282b69f8c7a57c",
+          "currentHash": "8de9c0f89d96f06248e88b7cb7d96099aaddacfba16fab5f2d282b69f8c7a57c",
+          "status": "VERIFIED"
+        },
+        {
+          "evidenceId": "EVD-2026-0005",
+          "originalHash": "8de9c0f89d96f06248e88b7cb7d96099aaddacfba16fab5f2d282b69f8c7a57c",
+          "currentHash": "8de9c0f89d96f06248e88b7cb7d96099aaddacfba16fab5f2d282b69f8c7a57c",
+          "status": "VERIFIED"
+        }
+      ],
+      "verifiedAt": "2026-09-24T18:17:56.146Z"
+    },
+    {
+      "caseId": "ALL_CASES",
+      "evidenceIntegrity": "VERIFIED",
+      "erasureVerification": "VERIFIED",
+      "recoveryValidation": "VERIFIED",
+      "auditIntegrity": "VERIFIED",
+      "overallStatus": "VERIFIED",
+      "auditChainDetails": {
+        "isValid": true,
+        "totalEvents": 96,
+        "status": "VERIFIED"
+      },
+      "evidenceDetails": [
+        {
+          "evidenceId": "EVD-2026-0001",
+          "originalHash": "8de9c0f89d96f06248e88b7cb7d96099aaddacfba16fab5f2d282b69f8c7a57c",
+          "currentHash": "8de9c0f89d96f06248e88b7cb7d96099aaddacfba16fab5f2d282b69f8c7a57c",
+          "status": "VERIFIED"
+        },
+        {
+          "evidenceId": "EVD-2026-0002",
+          "originalHash": "8de9c0f89d96f06248e88b7cb7d96099aaddacfba16fab5f2d282b69f8c7a57c",
+          "currentHash": "8de9c0f89d96f06248e88b7cb7d96099aaddacfba16fab5f2d282b69f8c7a57c",
+          "status": "VERIFIED"
+        },
+        {
+          "evidenceId": "EVD-2026-0003",
+          "originalHash": "8de9c0f89d96f06248e88b7cb7d96099aaddacfba16fab5f2d282b69f8c7a57c",
+          "currentHash": "8de9c0f89d96f06248e88b7cb7d96099aaddacfba16fab5f2d282b69f8c7a57c",
+          "status": "VERIFIED"
+        },
+        {
+          "evidenceId": "EVD-2026-0004",
+          "originalHash": "8de9c0f89d96f06248e88b7cb7d96099aaddacfba16fab5f2d282b69f8c7a57c",
+          "currentHash": "8de9c0f89d96f06248e88b7cb7d96099aaddacfba16fab5f2d282b69f8c7a57c",
+          "status": "VERIFIED"
+        },
+        {
+          "evidenceId": "EVD-2026-0005",
+          "originalHash": "8de9c0f89d96f06248e88b7cb7d96099aaddacfba16fab5f2d282b69f8c7a57c",
+          "currentHash": "8de9c0f89d96f06248e88b7cb7d96099aaddacfba16fab5f2d282b69f8c7a57c",
+          "status": "VERIFIED"
+        }
+      ],
+      "verifiedAt": "2026-09-24T18:39:40.616Z"
+    },
+    {
+      "caseId": "ALL_CASES",
+      "evidenceIntegrity": "VERIFIED",
+      "erasureVerification": "VERIFIED",
+      "recoveryValidation": "VERIFIED",
+      "auditIntegrity": "VERIFIED",
+      "overallStatus": "VERIFIED",
+      "auditChainDetails": {
+        "isValid": true,
+        "totalEvents": 101,
+        "status": "VERIFIED"
+      },
+      "evidenceDetails": [
+        {
+          "evidenceId": "EVD-2026-0001",
+          "originalHash": "8de9c0f89d96f06248e88b7cb7d96099aaddacfba16fab5f2d282b69f8c7a57c",
+          "currentHash": "8de9c0f89d96f06248e88b7cb7d96099aaddacfba16fab5f2d282b69f8c7a57c",
+          "status": "VERIFIED"
+        },
+        {
+          "evidenceId": "EVD-2026-0002",
+          "originalHash": "8de9c0f89d96f06248e88b7cb7d96099aaddacfba16fab5f2d282b69f8c7a57c",
+          "currentHash": "8de9c0f89d96f06248e88b7cb7d96099aaddacfba16fab5f2d282b69f8c7a57c",
+          "status": "VERIFIED"
+        },
+        {
+          "evidenceId": "EVD-2026-0003",
+          "originalHash": "8de9c0f89d96f06248e88b7cb7d96099aaddacfba16fab5f2d282b69f8c7a57c",
+          "currentHash": "8de9c0f89d96f06248e88b7cb7d96099aaddacfba16fab5f2d282b69f8c7a57c",
+          "status": "VERIFIED"
+        },
+        {
+          "evidenceId": "EVD-2026-0004",
+          "originalHash": "8de9c0f89d96f06248e88b7cb7d96099aaddacfba16fab5f2d282b69f8c7a57c",
+          "currentHash": "8de9c0f89d96f06248e88b7cb7d96099aaddacfba16fab5f2d282b69f8c7a57c",
+          "status": "VERIFIED"
+        },
+        {
+          "evidenceId": "EVD-2026-0005",
+          "originalHash": "8de9c0f89d96f06248e88b7cb7d96099aaddacfba16fab5f2d282b69f8c7a57c",
+          "currentHash": "8de9c0f89d96f06248e88b7cb7d96099aaddacfba16fab5f2d282b69f8c7a57c",
+          "status": "VERIFIED"
+        }
+      ],
+      "verifiedAt": "2026-09-24T18:39:40.776Z"
+    },
+    {
+      "caseId": "ALL_CASES",
+      "evidenceIntegrity": "VERIFIED",
+      "erasureVerification": "VERIFIED",
+      "recoveryValidation": "VERIFIED",
+      "auditIntegrity": "VERIFIED",
+      "overallStatus": "VERIFIED",
+      "auditChainDetails": {
+        "isValid": true,
+        "totalEvents": 106,
+        "status": "VERIFIED"
+      },
+      "evidenceDetails": [
+        {
+          "evidenceId": "EVD-2026-0001",
+          "originalHash": "8de9c0f89d96f06248e88b7cb7d96099aaddacfba16fab5f2d282b69f8c7a57c",
+          "currentHash": "8de9c0f89d96f06248e88b7cb7d96099aaddacfba16fab5f2d282b69f8c7a57c",
+          "status": "VERIFIED"
+        },
+        {
+          "evidenceId": "EVD-2026-0002",
+          "originalHash": "8de9c0f89d96f06248e88b7cb7d96099aaddacfba16fab5f2d282b69f8c7a57c",
+          "currentHash": "8de9c0f89d96f06248e88b7cb7d96099aaddacfba16fab5f2d282b69f8c7a57c",
+          "status": "VERIFIED"
+        },
+        {
+          "evidenceId": "EVD-2026-0003",
+          "originalHash": "8de9c0f89d96f06248e88b7cb7d96099aaddacfba16fab5f2d282b69f8c7a57c",
+          "currentHash": "8de9c0f89d96f06248e88b7cb7d96099aaddacfba16fab5f2d282b69f8c7a57c",
+          "status": "VERIFIED"
+        },
+        {
+          "evidenceId": "EVD-2026-0004",
+          "originalHash": "8de9c0f89d96f06248e88b7cb7d96099aaddacfba16fab5f2d282b69f8c7a57c",
+          "currentHash": "8de9c0f89d96f06248e88b7cb7d96099aaddacfba16fab5f2d282b69f8c7a57c",
+          "status": "VERIFIED"
+        },
+        {
+          "evidenceId": "EVD-2026-0005",
+          "originalHash": "8de9c0f89d96f06248e88b7cb7d96099aaddacfba16fab5f2d282b69f8c7a57c",
+          "currentHash": "8de9c0f89d96f06248e88b7cb7d96099aaddacfba16fab5f2d282b69f8c7a57c",
+          "status": "VERIFIED"
+        }
+      ],
+      "verifiedAt": "2026-09-24T18:39:51.842Z"
+    },
+    {
+      "caseId": "ALL_CASES",
+      "evidenceIntegrity": "VERIFIED",
+      "erasureVerification": "VERIFIED",
+      "recoveryValidation": "VERIFIED",
+      "auditIntegrity": "VERIFIED",
+      "overallStatus": "VERIFIED",
+      "auditChainDetails": {
+        "isValid": true,
+        "totalEvents": 111,
+        "status": "VERIFIED"
+      },
+      "evidenceDetails": [
+        {
+          "evidenceId": "EVD-2026-0001",
+          "originalHash": "8de9c0f89d96f06248e88b7cb7d96099aaddacfba16fab5f2d282b69f8c7a57c",
+          "currentHash": "8de9c0f89d96f06248e88b7cb7d96099aaddacfba16fab5f2d282b69f8c7a57c",
+          "status": "VERIFIED"
+        },
+        {
+          "evidenceId": "EVD-2026-0002",
+          "originalHash": "8de9c0f89d96f06248e88b7cb7d96099aaddacfba16fab5f2d282b69f8c7a57c",
+          "currentHash": "8de9c0f89d96f06248e88b7cb7d96099aaddacfba16fab5f2d282b69f8c7a57c",
+          "status": "VERIFIED"
+        },
+        {
+          "evidenceId": "EVD-2026-0003",
+          "originalHash": "8de9c0f89d96f06248e88b7cb7d96099aaddacfba16fab5f2d282b69f8c7a57c",
+          "currentHash": "8de9c0f89d96f06248e88b7cb7d96099aaddacfba16fab5f2d282b69f8c7a57c",
+          "status": "VERIFIED"
+        },
+        {
+          "evidenceId": "EVD-2026-0004",
+          "originalHash": "8de9c0f89d96f06248e88b7cb7d96099aaddacfba16fab5f2d282b69f8c7a57c",
+          "currentHash": "8de9c0f89d96f06248e88b7cb7d96099aaddacfba16fab5f2d282b69f8c7a57c",
+          "status": "VERIFIED"
+        },
+        {
+          "evidenceId": "EVD-2026-0005",
+          "originalHash": "8de9c0f89d96f06248e88b7cb7d96099aaddacfba16fab5f2d282b69f8c7a57c",
+          "currentHash": "8de9c0f89d96f06248e88b7cb7d96099aaddacfba16fab5f2d282b69f8c7a57c",
+          "status": "VERIFIED"
+        }
+      ],
+      "verifiedAt": "2026-09-24T18:39:51.993Z"
+    },
+    {
+      "caseId": "ALL_CASES",
+      "evidenceIntegrity": "VERIFIED",
+      "erasureVerification": "VERIFIED",
+      "recoveryValidation": "VERIFIED",
+      "auditIntegrity": "VERIFIED",
+      "overallStatus": "VERIFIED",
+      "auditChainDetails": {
+        "isValid": true,
+        "totalEvents": 116,
+        "status": "VERIFIED"
+      },
+      "evidenceDetails": [
+        {
+          "evidenceId": "EVD-2026-0001",
+          "originalHash": "8de9c0f89d96f06248e88b7cb7d96099aaddacfba16fab5f2d282b69f8c7a57c",
+          "currentHash": "8de9c0f89d96f06248e88b7cb7d96099aaddacfba16fab5f2d282b69f8c7a57c",
+          "status": "VERIFIED"
+        },
+        {
+          "evidenceId": "EVD-2026-0002",
+          "originalHash": "8de9c0f89d96f06248e88b7cb7d96099aaddacfba16fab5f2d282b69f8c7a57c",
+          "currentHash": "8de9c0f89d96f06248e88b7cb7d96099aaddacfba16fab5f2d282b69f8c7a57c",
+          "status": "VERIFIED"
+        },
+        {
+          "evidenceId": "EVD-2026-0003",
+          "originalHash": "8de9c0f89d96f06248e88b7cb7d96099aaddacfba16fab5f2d282b69f8c7a57c",
+          "currentHash": "8de9c0f89d96f06248e88b7cb7d96099aaddacfba16fab5f2d282b69f8c7a57c",
+          "status": "VERIFIED"
+        },
+        {
+          "evidenceId": "EVD-2026-0004",
+          "originalHash": "8de9c0f89d96f06248e88b7cb7d96099aaddacfba16fab5f2d282b69f8c7a57c",
+          "currentHash": "8de9c0f89d96f06248e88b7cb7d96099aaddacfba16fab5f2d282b69f8c7a57c",
+          "status": "VERIFIED"
+        },
+        {
+          "evidenceId": "EVD-2026-0005",
+          "originalHash": "8de9c0f89d96f06248e88b7cb7d96099aaddacfba16fab5f2d282b69f8c7a57c",
+          "currentHash": "8de9c0f89d96f06248e88b7cb7d96099aaddacfba16fab5f2d282b69f8c7a57c",
+          "status": "VERIFIED"
+        }
+      ],
+      "verifiedAt": "2026-09-24T18:43:54.309Z"
+    },
+    {
+      "caseId": "ALL_CASES",
+      "evidenceIntegrity": "VERIFIED",
+      "erasureVerification": "VERIFIED",
+      "recoveryValidation": "VERIFIED",
+      "auditIntegrity": "VERIFIED",
+      "overallStatus": "VERIFIED",
+      "auditChainDetails": {
+        "isValid": true,
+        "totalEvents": 121,
+        "status": "VERIFIED"
+      },
+      "evidenceDetails": [
+        {
+          "evidenceId": "EVD-2026-0001",
+          "originalHash": "8de9c0f89d96f06248e88b7cb7d96099aaddacfba16fab5f2d282b69f8c7a57c",
+          "currentHash": "8de9c0f89d96f06248e88b7cb7d96099aaddacfba16fab5f2d282b69f8c7a57c",
+          "status": "VERIFIED"
+        },
+        {
+          "evidenceId": "EVD-2026-0002",
+          "originalHash": "8de9c0f89d96f06248e88b7cb7d96099aaddacfba16fab5f2d282b69f8c7a57c",
+          "currentHash": "8de9c0f89d96f06248e88b7cb7d96099aaddacfba16fab5f2d282b69f8c7a57c",
+          "status": "VERIFIED"
+        },
+        {
+          "evidenceId": "EVD-2026-0003",
+          "originalHash": "8de9c0f89d96f06248e88b7cb7d96099aaddacfba16fab5f2d282b69f8c7a57c",
+          "currentHash": "8de9c0f89d96f06248e88b7cb7d96099aaddacfba16fab5f2d282b69f8c7a57c",
+          "status": "VERIFIED"
+        },
+        {
+          "evidenceId": "EVD-2026-0004",
+          "originalHash": "8de9c0f89d96f06248e88b7cb7d96099aaddacfba16fab5f2d282b69f8c7a57c",
+          "currentHash": "8de9c0f89d96f06248e88b7cb7d96099aaddacfba16fab5f2d282b69f8c7a57c",
+          "status": "VERIFIED"
+        },
+        {
+          "evidenceId": "EVD-2026-0005",
+          "originalHash": "8de9c0f89d96f06248e88b7cb7d96099aaddacfba16fab5f2d282b69f8c7a57c",
+          "currentHash": "8de9c0f89d96f06248e88b7cb7d96099aaddacfba16fab5f2d282b69f8c7a57c",
+          "status": "VERIFIED"
+        }
+      ],
+      "verifiedAt": "2026-09-24T18:43:54.319Z"
+    },
+    {
+      "caseId": "ALL_CASES",
+      "evidenceIntegrity": "VERIFIED",
+      "erasureVerification": "VERIFIED",
+      "recoveryValidation": "VERIFIED",
+      "auditIntegrity": "VERIFIED",
+      "overallStatus": "VERIFIED",
+      "auditChainDetails": {
+        "isValid": true,
+        "totalEvents": 127,
+        "status": "VERIFIED"
+      },
+      "evidenceDetails": [
+        {
+          "evidenceId": "EVD-2026-0001",
+          "originalHash": "8de9c0f89d96f06248e88b7cb7d96099aaddacfba16fab5f2d282b69f8c7a57c",
+          "currentHash": "8de9c0f89d96f06248e88b7cb7d96099aaddacfba16fab5f2d282b69f8c7a57c",
+          "status": "VERIFIED"
+        },
+        {
+          "evidenceId": "EVD-2026-0002",
+          "originalHash": "8de9c0f89d96f06248e88b7cb7d96099aaddacfba16fab5f2d282b69f8c7a57c",
+          "currentHash": "8de9c0f89d96f06248e88b7cb7d96099aaddacfba16fab5f2d282b69f8c7a57c",
+          "status": "VERIFIED"
+        },
+        {
+          "evidenceId": "EVD-2026-0003",
+          "originalHash": "8de9c0f89d96f06248e88b7cb7d96099aaddacfba16fab5f2d282b69f8c7a57c",
+          "currentHash": "8de9c0f89d96f06248e88b7cb7d96099aaddacfba16fab5f2d282b69f8c7a57c",
+          "status": "VERIFIED"
+        },
+        {
+          "evidenceId": "EVD-2026-0004",
+          "originalHash": "8de9c0f89d96f06248e88b7cb7d96099aaddacfba16fab5f2d282b69f8c7a57c",
+          "currentHash": "8de9c0f89d96f06248e88b7cb7d96099aaddacfba16fab5f2d282b69f8c7a57c",
+          "status": "VERIFIED"
+        },
+        {
+          "evidenceId": "EVD-2026-0005",
+          "originalHash": "8de9c0f89d96f06248e88b7cb7d96099aaddacfba16fab5f2d282b69f8c7a57c",
+          "currentHash": "8de9c0f89d96f06248e88b7cb7d96099aaddacfba16fab5f2d282b69f8c7a57c",
+          "status": "VERIFIED"
+        }
+      ],
+      "verifiedAt": "2026-09-24T18:45:18.508Z"
+    },
+    {
+      "caseId": "ALL_CASES",
+      "evidenceIntegrity": "VERIFIED",
+      "erasureVerification": "VERIFIED",
+      "recoveryValidation": "VERIFIED",
+      "auditIntegrity": "VERIFIED",
+      "overallStatus": "VERIFIED",
+      "auditChainDetails": {
+        "isValid": true,
+        "totalEvents": 132,
+        "status": "VERIFIED"
+      },
+      "evidenceDetails": [
+        {
+          "evidenceId": "EVD-2026-0001",
+          "originalHash": "8de9c0f89d96f06248e88b7cb7d96099aaddacfba16fab5f2d282b69f8c7a57c",
+          "currentHash": "8de9c0f89d96f06248e88b7cb7d96099aaddacfba16fab5f2d282b69f8c7a57c",
+          "status": "VERIFIED"
+        },
+        {
+          "evidenceId": "EVD-2026-0002",
+          "originalHash": "8de9c0f89d96f06248e88b7cb7d96099aaddacfba16fab5f2d282b69f8c7a57c",
+          "currentHash": "8de9c0f89d96f06248e88b7cb7d96099aaddacfba16fab5f2d282b69f8c7a57c",
+          "status": "VERIFIED"
+        },
+        {
+          "evidenceId": "EVD-2026-0003",
+          "originalHash": "8de9c0f89d96f06248e88b7cb7d96099aaddacfba16fab5f2d282b69f8c7a57c",
+          "currentHash": "8de9c0f89d96f06248e88b7cb7d96099aaddacfba16fab5f2d282b69f8c7a57c",
+          "status": "VERIFIED"
+        },
+        {
+          "evidenceId": "EVD-2026-0004",
+          "originalHash": "8de9c0f89d96f06248e88b7cb7d96099aaddacfba16fab5f2d282b69f8c7a57c",
+          "currentHash": "8de9c0f89d96f06248e88b7cb7d96099aaddacfba16fab5f2d282b69f8c7a57c",
+          "status": "VERIFIED"
+        },
+        {
+          "evidenceId": "EVD-2026-0005",
+          "originalHash": "8de9c0f89d96f06248e88b7cb7d96099aaddacfba16fab5f2d282b69f8c7a57c",
+          "currentHash": "8de9c0f89d96f06248e88b7cb7d96099aaddacfba16fab5f2d282b69f8c7a57c",
+          "status": "VERIFIED"
+        }
+      ],
+      "verifiedAt": "2026-09-25T04:18:07.855Z"
+    }
+  ]
+}
